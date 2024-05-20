@@ -2,15 +2,27 @@ from pyswip import Prolog
 import pCreate as pl
 
 def most_recent(qList):
-  recent = [0, 0, 0]
-  result = {}
-  for q in qList:
-    date = q["D"]
-    for i in range(len(date)):
-      if recent[i] < date[i]:
-        recent = date
-        result = q
-  return result, recent
+    recent = [0, 0, 0]
+    result = {}
+
+    key_name = ""
+
+    temp = qList[0]
+    for key in temp.keys():
+        if type(temp[key]) == list:
+            key_name = key
+            break
+
+    if key_name == "":
+        return "Fail! Make sure that the date list is set to one variable (D = [2024, 05, 20])", recent
+
+    for q in qList:
+        date = q[key]
+        for i in range(len(date)):
+            if recent[i] < date[i]:
+                recent = date
+                result = q
+    return result, recent
 
 class plInstance:
     def __init__(self, name, dataset, save=False) -> None:
@@ -75,6 +87,10 @@ class plInstance:
         self.pl.assertz(input)
 
         return True
+    
+    def retract(self, statement):
+        self.pl.retract(statement)
+    
 
     def query(self, statement, recent=False):
 

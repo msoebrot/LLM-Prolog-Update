@@ -11,6 +11,8 @@ root.geometry("1000x800")
 name_var=tk.StringVar()
 query_var=tk.StringVar()
 
+global_fact_list = []
+
 p = pi.plInstance("master", "./kb.pl", save=False)
 original_database = str(p)
 
@@ -34,16 +36,19 @@ def get_content():
     for item in test:
         tst_string = tst_string + item + ".\n"
 
-    output_entry.insert(tk.END, tst_string)
+    output_entry.delete("1.0", tk.END)
+    output_entry.insert(tk.END, tst_string.strip())
 
 def add_to_database():
     fact_str = output_entry.get("1.0", "end-1c")
-    facts = fact_str.split(".\n")
+    fact_str = fact_str.replace(".", "")
+    facts = fact_str.split("\n")
     while '' in facts:
         facts.remove('')
 
     output_entry.delete('1.0', tk.END)
     for fact in facts:
+        global_fact_list.append(fact)
         new_entry.insert(tk.END, fact + "\n")
         p.assert_fact(fact)
 
@@ -51,7 +56,7 @@ def query_pl():
     q=query_var.get()
     if q == "":
         return
-    result = p.query(q, recent = False)
+    result = p.query(q, recent=False)
     result_entry.delete("1.0", tk.END)
     if type(result) == list:
         for item in result:
@@ -61,6 +66,30 @@ def query_pl():
         result_str = str(result)
         result_entry.insert(tk.END, result_str + "\n")
 
+def query_recent():
+    q=query_var.get()
+    if q == "":
+        return
+    result = p.query(q, recent=True)
+    result_entry.delete("1.0", tk.END)
+    if type(result) == list:
+        for item in result:
+            item_str = str(item)
+            result_entry.insert(tk.END, item_str + "\n")
+    else:
+        result_str = str(result)
+        result_entry.insert(tk.END, result_str + "\n")
+
+def reset():
+    for fact in global_fact_list:
+        p.retract(fact)
+
+    name_var.set("")
+    query_var.set("")
+    statements_entry.delete("1.0", tk.END)
+    output_entry.delete("1.0", tk.END)
+    new_entry.delete("1.0", tk.END)
+    result_entry.delete("1.0", tk.END)
 
 
 # creating a label for 
@@ -69,6 +98,8 @@ description_label = tk.Label(root, text = 'Description', font=('calibre',14, 'bo
 
 # creating description using widget Label 
 description_text = tk.Label(root, text = """Input a username and a list of statements to generate into prolog statements.""", font=('calibre',14, 'bold'))
+
+clear_btn=tk.Button(root,text = 'Clear', command = reset)
 
 # creating a label for 
 # name using widget Label
@@ -143,6 +174,10 @@ query_entry = tk.Entry(root, textvariable=query_var, font=('calibre',14,'normal'
 # Button that will call the add_to_database function 
 query_btn=tk.Button(root,text = 'Query', command = query_pl)
 
+# creating a button using the widget 
+# Button that will call the add_to_database function 
+query_recent_btn=tk.Button(root,text = 'Query Recent', command = query_recent)
+
 # creating a label for output
 result_label = tk.Label(root, text = 'Result', font = ('calibre',14,'bold'))
 
@@ -160,6 +195,7 @@ result_scroll.config(command=result_entry.yview)
 # method
 description_label.grid(row=0,column=0, sticky = "NWE", pady = 2)
 description_text.grid(row=0,column=1, sticky = "NWE", pady = 2, padx=20)
+clear_btn.grid(row=0,column=2)
 name_label.grid(row=1,column=0, sticky = "NWE", pady = 2, padx=20)
 name_entry.grid(row=1,column=1, sticky = "NWE", pady = 2)
 statements_label.grid(row=2,column=0, sticky = "NWE", pady = 2, padx=20)
@@ -179,9 +215,10 @@ new_scroll.grid(row=7,column=2, sticky = "NWS", pady = 7)
 query_label.grid(row=8,column=0, sticky = "NWE", pady = 2, padx=20)
 query_entry.grid(row=8,column=1, sticky = "NWE", pady = 2)
 query_btn.grid(row=9,column=1)
-result_label.grid(row=10,column=0, sticky = "NWE", pady = 2, padx=20)
-result_entry.grid(row=10,column=1, sticky = "NWE", pady = 2)
-result_scroll.grid(row=10,column=2, sticky = "NWS", pady = 7)
+query_recent_btn.grid(row=10,column=1)
+result_label.grid(row=11,column=0, sticky = "NWE", pady = 2, padx=20)
+result_entry.grid(row=11,column=1, sticky = "NWE", pady = 2)
+result_scroll.grid(row=11,column=2, sticky = "NWS", pady = 7)
 
 
 root.mainloop()
