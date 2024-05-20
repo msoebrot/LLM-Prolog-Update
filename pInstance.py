@@ -13,9 +13,10 @@ def most_recent(qList):
   return result, recent
 
 class plInstance:
-    def __init__(self, name) -> None:
-        self.dataset = "./kb.pl"
+    def __init__(self, name, dataset, save=False) -> None:
+        self.dataset = dataset
         self.user = name
+        self.save = save
         self.pl = Prolog()
         self.log_time = ""
         self.filename = self.user + ".pl"
@@ -40,16 +41,20 @@ class plInstance:
         result_str = "Facts:\n\n" + fact_str + "\n\nRules:\n\n" + rule_str
         return result_str
 
+    def set_user(self, name):
+        self.user = name
+
     def add_rules_from_input(self, input):
 
         # Given an input statement with the username and three new statements, creates a list of rules using Gemini
-        new_facts, self.log_time = pl.create_new_facts(input)
+        new_facts, self.log_time = pl.create_new_facts(input, self.dataset)
 
         #self.userfile = open(self.filename, "a") 
-        self.userfile = open(self.filename, "w") 
-        for fact in new_facts:
-            self.userfile.write(fact + ".\n")
-        self.userfile.close()
+        if self.save:
+            self.userfile = open(self.filename, "w") 
+            for fact in new_facts:
+                self.userfile.write(fact + ".\n")
+            self.userfile.close()
 
         for fact in new_facts:
             self.facts.append(fact)
@@ -60,15 +65,16 @@ class plInstance:
         return True
     
     def assert_fact(self, input):
-       #Given valid
-       self.userfile = open(self.filename, "a") 
-       self.userfile.write(input + ".\n")
-       self.userfile.close()
+        #Given valid
+        if self.save:
+            self.userfile = open(self.filename, "a") 
+            self.userfile.write(input + ".\n")
+            self.userfile.close()
 
-       self.facts.append(input)
-       self.pl.assertz(input)
+        self.facts.append(input)
+        self.pl.assertz(input)
 
-       return True
+        return True
 
     def query(self, statement, recent=False):
 

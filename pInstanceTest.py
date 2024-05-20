@@ -16,13 +16,13 @@ The engineering building has 7 floors.
 There will be road construction on I-280 for the first week of July."""
 
 # Create a prolog instance that adds in inforamtion from the base knowledge base
-p = pi.plInstance(username)
+p = pi.plInstance(username, "./kb.pl")
 
 # Given a text input including the statements and the username, populates the prolog database 
 p.add_rules_from_input(input_statements)
 
 # Translate sample statements into prolog statements
-test, _ = pc.create_new_facts(input_statements)
+test, _ = pc.create_new_facts(input_statements, "./kb.pl")
 for item in test:
     print(item)
 
@@ -37,7 +37,7 @@ Input:
 The pool will be open from 9am to 5pm on Wednesday.
 """
 # openingHours(pool, wednesday, 0900, 1700, [2024, 5, 13])
-new_fact, _ = pc.create_new_facts(new_input)
+new_fact, _ = pc.create_new_facts(new_input, "kb.pl")
 print(new_fact)
 for fact in new_fact:
     p.assert_fact(fact)
@@ -79,3 +79,10 @@ for result in p.query("cuisineAt(monday, lunch, C, L, D)", recent=False): # Same
     print(result)
 
 print("---------")
+
+print("Testing not")
+
+p.assert_fact("not(student(thomas, [2024, 05, 20]))")
+
+for result in p.query("not(student(thomas, D))", recent=False): # Now we get all possible opening hours.
+    print(result)

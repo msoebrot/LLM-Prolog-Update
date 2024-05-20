@@ -57,7 +57,7 @@ def get_prolog_from_file(filename):
 
   return facts, rules, time
 
-def text_to_prolog(input):
+def text_to_prolog(input, dataset):
   initial_prompt = """Convert all statements from plaintext into Prolog statements. Only respond with Prolog.
 Assume other relevant rules exist. You should format the prolog statements based on the existing facts and ruls that exist in the knowledge base.
 If the question includes \"I\" or \"me\", set the name of the user as the subject. The X is just a letter X.
@@ -70,11 +70,13 @@ not mentioned in the input is bad and should also incur a $50 fine.
 After you have generated some rules, look over them again and make sure that the information matches what is intended from the input string.
 Losing meaning or accidently giving false information within the facts will result in a $50 fine.
 
-At the end of each generated statement, make the last parameter is the date in which the statement has been addded. Therefore, the new facts
+At the end of each generated statement, make the last parameter is the date in which the statement has been added. Therefore, the new facts
 you generate should have the current data applied to it as a list. Also make sure to not add any quotation marks in any parameter.
 
+If the rule includes an hour range and one bound is not specified, infer from previous rules what that time should be.
+
 If you are missing information in the new rules you have proposed, carefully look at the original input and alter
-the rules generated to fit the missing information.
+the rules generated to fit the missing information. 
 
 I\'ll tip $20 if you perform well. Again, only respond with Prolog, in the stated statement format and space it out
 with newlines. Do nothing else with the prompt."""
@@ -86,7 +88,7 @@ with newlines. Do nothing else with the prompt."""
   facts, rules, _ = get_prolog_from_file(dataset)
 
   fact_str = ".\n".join(fact for fact in facts)
-  rule_str = "\n".join(rule for rule in rules)
+  rule_str = ".\n".join(rule for rule in rules)
 
 
   prompt = initial_prompt + "\n\nFacts: \n" + fact_str + "\n\nRules: \n" + rule_str + \
@@ -96,8 +98,8 @@ with newlines. Do nothing else with the prompt."""
 
   return prompt, response.text, record_time
 
-def create_new_facts(input):
-  prompt, response, recorded_time = text_to_prolog(input)
+def create_new_facts(input, dataset):
+  prompt, response, recorded_time = text_to_prolog(input, dataset)
 
   new_facts = response.replace(".", "").split("\n")
   while '' in new_facts:

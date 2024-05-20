@@ -1,7 +1,8 @@
 from pyswip import Prolog
 import pCreate as pl
+import pInstance as pi
 
-dataset = "./kb3.pl"
+dataset = "./kb.pl"
 username = "michael"
 
 # Sample input
@@ -20,7 +21,7 @@ There will be road construction on I-280 for the first week of July."""
 facts, rules, log_time = pl.get_prolog_from_file(dataset)
 
 # Given an input statement with the username and three new statements, creates a list of rules using Gemini
-new_facts = pl.create_new_facts(input_statements)
+new_facts, _ = pl.create_new_facts(input_statements, dataset)
 
 filename = username + ".pl"
 userfile = open(filename, "a") 
@@ -66,7 +67,7 @@ for q in qDict:
 
 print("---")
 
-result, recent = pl.most_recent(qDict)
+result, recent = pi.most_recent(qDict)
 print(str(result) + ": " + str(recent))
 
 print("---------")
