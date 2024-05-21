@@ -70,8 +70,8 @@ not mentioned in the input is bad and should also incur a $50 fine.
 After you have generated some rules, look over them again and make sure that the information matches what is intended from the input string.
 Losing meaning or accidently giving false information within the facts will result in a $50 fine.
 
-At the end of each generated statement, make the last parameter is the date and time(as a 4 digit number representing hour and minute) in 
-which the statement has been added. Therefore, the new facts you generate should have the current data applied to it as a list. Also make sure 
+At the end of each generated statement, make the last parameter is the date and time(as a 6 digit number representing hours, minutes and sceonds) 
+in which the statement has been added. Therefore, the new facts you generate should have the current data applied to it as a list. Also make sure 
 to not add any quotation marks in any parameter.
 
 If the rule includes an hour range and one bound is not specified, infer from previous rules what that time should be.
