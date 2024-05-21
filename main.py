@@ -24,8 +24,8 @@ def get_content():
     name=name_var.get()
     statements=statements_entry.get("1.0", "end-1c")
      
-    print("Username : " + name)
-    print("Statements : " + statements)
+    #print("Username : " + name)
+    #print("Statements : " + statements)
 
     p.set_user(name)
     # Sample input
