@@ -1,7 +1,6 @@
 # Helper functions for converting natural language to Prolog. Also includes function for
 # converting Prolog files into statements
 
-
 import pathlib
 import textwrap
 import time
@@ -68,7 +67,22 @@ to use theses facts. If other parts of the fact are not mentioned, do not change
 not mentioned in the input is bad and should also incur a $50 fine.
 
 After you have generated some rules, look over them again and make sure that the information matches what is intended from the input string.
-Losing meaning or accidently giving false information within the facts will result in a $50 fine.
+Make sure that important informations such as subject names are retained within the generated facts and if there is a measurement, that 
+the metric is mentioned within the head of the rule to retain that measurement. Losing meaning or accidently giving false information 
+within the facts will result in a $50 fine.
+
+For example:
+
+"The height of the statue of liberty is 305 feet." => height_in_feet(statue_of_liberty, 305, [date_list])
+"In Fall 2023, UCSC had a 30 percent of undergraduates were Asian" => percent_of_undergraduates(ucsc, asian, 30, [date_list])
+"Nvidia stock has jumped 240 percent over the past year" => year_percent_increase(Nvidia, stock, 240, [date_list])
+"Amazon has over 1.6 million employees" => number_of_employees(Amazon, 1600000, [date_list])
+
+If the statement consists of a series of descriptors, you can put them in a list.
+
+For example:
+"At Niagara Falls, the scenery is beautiful, but also loud" => scenery(niagara_falls, [beautiful, loud]], [date_list])
+"Disneyland is known for its' fun atmosphere and thrilling rides" => known_for(disneyland, [fun, thrilling_rides]], [date_list])
 
 At the end of each generated statement, make the last parameter is the date and time(as a 6 digit number representing hours, minutes and sceonds) 
 in which the statement has been added. Therefore, the new facts you generate should have the current data applied to it as a list. Also make sure 
