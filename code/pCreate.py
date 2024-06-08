@@ -88,6 +88,9 @@ At the end of each generated statement, make the last parameter is the date and 
 in which the statement has been added. Therefore, the new facts you generate should have the current data applied to it as a list. Also make sure 
 to not add any quotation marks in any parameter.
 
+An example for the date_list looks like: [date_list] = [current_year, current_month, current_date, 6-digit-time]
+Ex. If it is currently March 4th, 2024 at 16:00:00, date_list is [2024, 03, 04, 160000]
+
 If the rule includes an hour range and one bound is not specified, infer from previous rules what that time should be.
 
 If you are missing information in the new rules you have proposed, carefully look at the original input and alter
