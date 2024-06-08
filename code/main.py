@@ -13,7 +13,7 @@ query_var=tk.StringVar()
 
 global_fact_list = []
 
-p = pi.plInstance("master", "./kb.pl", save=False)
+p = pi.plInstance("master", "./prolog_files/kb.pl", save=False)
 original_database = str(p)
 
 # defining a function that will
@@ -31,7 +31,7 @@ def get_content():
     # Sample input
     input_statements = "\nUsername: " + name + "\nInput:\n"+statements
 
-    test, _ = pc.create_new_facts(input_statements, "./kb.pl")
+    test, _ = pc.create_new_facts(input_statements, "./prolog_files/kb.pl")
     tst_string = ""
     for item in test:
         tst_string = tst_string + item + ".\n"

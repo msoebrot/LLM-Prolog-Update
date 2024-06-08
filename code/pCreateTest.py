@@ -2,7 +2,7 @@ from pyswip import Prolog
 import pCreate as pl
 import pInstance as pi
 
-dataset = "./kb.pl"
+dataset = "./prolog_files/kb.pl"
 username = "michael"
 
 # Sample input

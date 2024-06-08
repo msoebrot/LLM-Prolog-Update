@@ -1,5 +1,6 @@
 import pInstance as pi
 import pCreate as pc
+import time
 
 username = "michael"
 
@@ -16,13 +17,13 @@ The engineering building has 7 floors.
 There will be road construction on I-280 for the first week of July."""
 
 # Create a prolog instance that adds in inforamtion from the base knowledge base
-p = pi.plInstance(username, "./kb.pl")
+p = pi.plInstance(username, "./prolog_files/kb.pl")
 
 # Given a text input including the statements and the username, populates the prolog database 
 p.add_rules_from_input(input_statements)
 
 # Translate sample statements into prolog statements
-test, _ = pc.create_new_facts(input_statements, "./kb.pl")
+test, _ = pc.create_new_facts(input_statements, "./prolog_files/kb.pl")
 for item in test:
     print(item)
 
@@ -36,8 +37,11 @@ Input:
 
 The pool will be open from 9am to 5pm on Wednesday.
 """
+
+time.sleep(10)
+
 # openingHours(pool, wednesday, 0900, 1700, [2024, 5, 13])
-new_fact, _ = pc.create_new_facts(new_input, "kb.pl")
+new_fact, _ = pc.create_new_facts(new_input, "./prolog_files/kb.pl")
 print(new_fact)
 for fact in new_fact:
     p.assert_fact(fact)
@@ -84,5 +88,5 @@ print("Testing not")
 
 p.assert_fact("not(student(thomas, [2024, 05, 20]))")
 
-for result in p.query("not(student(thomas, D))", recent=False): # Now we get all possible opening hours.
+for result in p.query("not(student(thomas, D))", recent=False): # Now we get all possible statements.
     print(result)

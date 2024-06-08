@@ -14,7 +14,7 @@ BARD_KEY = "AIzaSyC_cy-Qf3vSlQXVIXG0-usWuva3oW9e-yQ"
 genai.configure(api_key=BARD_KEY)
 
 # Overall database
-dataset = "./kb.pl"
+dataset = "./prolog_files/kb.pl"
 
 # print("---------")
 
