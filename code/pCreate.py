@@ -13,6 +13,29 @@ BARD_KEY = "AIzaSyC_cy-Qf3vSlQXVIXG0-usWuva3oW9e-yQ"
 
 genai.configure(api_key=BARD_KEY)
 
+safety_settings = [
+    {
+        "category": "HARM_CATEGORY_DANGEROUS",
+        "threshold": "BLOCK_NONE",
+    },
+    {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "threshold": "BLOCK_NONE",
+    },
+    {
+        "category": "HARM_CATEGORY_HATE_SPEECH",
+        "threshold": "BLOCK_NONE",
+    },
+    {
+        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+        "threshold": "BLOCK_NONE",
+    },
+    {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "threshold": "BLOCK_NONE",
+    },
+]
+
 # Overall database
 dataset = "./prolog_files/kb.pl"
 
@@ -88,8 +111,15 @@ At the end of each generated statement, make the last parameter is the date and 
 in which the statement has been added. Therefore, the new facts you generate should have the current data applied to it as a list. Also make sure 
 to not add any quotation marks in any parameter.
 
+In rules in which a comparison is being made, make sure the comparison is stated within the rule head or within the body.
+This goes for adverbs as well, as losing this could change the sentence.
+Ex. Michael is as rich as Joe => as_rich_as(michael, joe, [date_list])
+Ex. John's hand were about the size of textbooks => about_the_size(john, hand, textbook, [date_list])
+Ex. Most of Bob's time is spent fishing => most_of_free_time(bob, fishing, [date_list])
+
 An example for the date_list looks like: [date_list] = [current_year, current_month, current_date, 6-digit-time]
 Ex. If it is currently March 4th, 2024 at 16:00:00, date_list is [2024, 03, 04, 160000]
+
 
 If the rule includes an hour range and one bound is not specified, infer from previous rules what that time should be.
 
@@ -99,7 +129,7 @@ the rules generated to fit the missing information.
 I\'ll tip $20 if you perform well. Again, only respond with Prolog, in the stated statement format and space it out
 with newlines. Do nothing else with the prompt."""
 
-  model = genai.GenerativeModel('gemini-1.5-pro-latest')
+  model = genai.GenerativeModel(model_name='gemini-1.5-pro-latest', safety_settings=safety_settings)
 
   record_time = get_time()
 
@@ -113,6 +143,11 @@ with newlines. Do nothing else with the prompt."""
      "\n\nCurrent Time and Date(UTC): " + record_time + input
 
   response = model.generate_content(prompt)
+
+  while len(response.candidates[0].content.parts) < 1:
+    print("pCreate failed response:", input)
+    time.sleep(15)
+    response = model.generate_content(prompt)
 
   return prompt, response.text, record_time
 
