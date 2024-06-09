@@ -1,100 +1,100 @@
-The capital of Italy is Rome. => capital_of(italy, rome, [2024, 6, 8, 131807]) => Rome is the capital of Italy. 
+The human body has about 37 trillion cells. => number_of_cells(human_body, 37000000000000, [2024, 6, 8, 175601]) => The human body has 37 trillion cells. 
 
-The Earth's atmosphere has five primary layers. => primary_layers(earth_atmosphere, 5, [2024, 6, 8, 131850]) => The Earth's atmosphere has 5 primary layers. 
+The capital of Thailand is Bangkok. => capital_of(thailand, bangkok, [2024, 6, 8, 175644]) => Bangkok is the capital of Thailand. 
 
-The heart of a blue whale is the size of a small car. => about_the_size(blue_whale, heart, small_car, [2024, 6, 8, 131934]) => A blue whale has a heart about the size of a small car. 
+The human body has five senses: sight, hearing, taste, smell, and touch. => sense(human_body, [sight, hearing, taste, smell, touch], [2024, 6, 8, 175728]) => The human body senses sight, hearing, taste, smell, and touch. 
 
-The longest river in the world is the Nile River. => longest_river(nile_river, [2024, 6, 8, 132017]) => The Nile River is the longest river. 
+The Amazon Rainforest is the largest tropical rainforest in the world. => largest_tropical_rainforest(amazon_rainforest, world, [2024, 6, 8, 175811]) => The Amazon Rainforest is the largest tropical rainforest in the world. 
 
-The primary language spoken in China is Mandarin Chinese. => primary_language_spoken(china, mandarin_chinese, [2024, 6, 8, 132100]) => The primary language spoken in China is Mandarin Chinese. 
+The capital of Sweden is Stockholm. => capital_of(sweden, stockholm, [2024, 6, 8, 175855]) => Stockholm is the capital of Sweden. 
 
-The Earth's atmosphere is composed primarily of nitrogen. => composed_of(earths_atmosphere, nitrogen, [2024, 6, 8, 132143]) => Earth's atmosphere is composed of nitrogen. 
+The Sahara Desert is the largest hot desert in the world. => largest_hot_desert(sahara_desert, world, [2024, 6, 8, 175939]) => The Sahara Desert is the largest hot desert in the world. 
 
-The currency of the United States is the dollar. => currency(united_states, dollar, [2024, 6, 8, 132226]) => The currency of the United States is the dollar. 
+The human brain weighs about 3 pounds. => weight_in_pounds(human_brain, 3, [2024, 6, 8, 180022]) => The human brain weighs 3 pounds. 
 
-The Amazon Rainforest is the largest tropical rainforest in the world. => largest_tropical_rainforest(amazon_rainforest, world, [2024, 6, 8, 132309]) => The Amazon Rainforest is the largest tropical rainforest in the world. 
+The capital of Canada is Ottawa. => capital_of(canada, ottawa, [2024, 6, 8, 180104]) => Ottawa is the capital of Canada. 
 
-The Great Wall of China stretches over 13,000 miles. => length_in_miles(great_wall_of_china, 13000, [2024, 6, 8, 132353]) => The Great Wall of China is 13000 miles long. 
+The Amazon River has no bridges crossing it. => no_bridges(amazon_river, crossing, [2024, 6, 8, 180149]) => The Amazon River has no bridges crossing it. 
 
-The chemical symbol for sodium is Na. => chemical_symbol(sodium, na, [2024, 6, 8, 132436]) => The chemical symbol of sodium is Na. 
+The chemical symbol for iodine is I. => chemical_symbol(iodine, i, [2024, 6, 8, 180232]) => The chemical symbol of Iodine is I. 
 
-The Earth's atmosphere is composed of 78% nitrogen and 21% oxygen. => atmospheric_composition(earth, nitrogen, 78, [2024, 6, 8, 132519]) atmospheric_composition(earth, oxygen, 21, [2024, 6, 8, 132519]) => The Earth's atmosphere is 78% nitrogen and 21% oxygen. 
+The tallest mountain on Earth is Mount Everest. => tallest_mountain(earth, mount_everest, [2024, 6, 8, 180315]) => Mount Everest is the tallest mountain on Earth. 
 
-The human body has about 20 square feet of skin. => skin_square_footage(human, 20, [2024, 6, 8, 132603]) => A human has 20 square feet of skin. 
+The Amazon Rainforest is home to approximately 10% of the world's known species. => percent_of_species(amazon_rainforest, 10, [2024, 6, 8, 180359]) => The Amazon Rainforest contains 10% of the world's known species. 
 
-The currency of Australia is the Australian dollar. => currency(australia, australian_dollar, [2024, 6, 8, 132647]) => The currency of Australia is the Australian dollar. 
+The speed of light in a vacuum is approximately 299,792,458 meters per second. => speed_of_light_meters_per_second(vacuum, 299792458, [2024, 6, 8, 180442]) => The speed of light in a vacuum is 299,792,458 meters per second. 
 
-A lightning bolt is hotter than the surface of the sun. => hotter_than(lightning_bolt, surface_of_the_sun, [2024, 6, 8, 132730]) => A lightning bolt is hotter than the surface of the sun. 
+The primary language spoken in India is Hindi. => primary_language_spoken(india, hindi, [2024, 6, 8, 180525]) => The primary language spoken in India is Hindi. 
 
-The Pacific Ocean is the largest ocean on Earth. => largest_ocean(pacific_ocean, earth, [2024, 6, 8, 132814]) => The Pacific Ocean is the largest ocean on Earth. 
+The capital of South Africa is Pretoria. => capital_of(south_africa, pretoria, [2024, 6, 8, 180609]) => Pretoria is the capital of South Africa. 
 
-The primary language spoken in Poland is Polish. => primary_language_spoken_in(poland, polish, [2024, 6, 8, 132857]) => The primary language spoken in Poland is Polish. 
+The Earth revolves around the Sun once every 365.25 days. => revolves_around(earth, sun, 36525, days, [2024, 6, 8, 180652]) => Earth revolves around the sun in 36525 days. 
 
-The currency of the United States is the dollar. => currency(united_states, dollar, [2024, 6, 8, 132940]) => The currency of the United States is the dollar. 
+The Pacific Ocean is the largest ocean on Earth. => largest_ocean(pacific_ocean, earth, [2024, 6, 8, 180736]) => The Pacific Ocean is the largest ocean on Earth. 
 
-The Earth's atmosphere is composed primarily of nitrogen. => atmosphere_composition(earth, nitrogen, [2024, 6, 8, 133024]) => The atmosphere of Earth is composed of nitrogen. 
+The Earth's magnetic field is generated by its molten outer core. => generated_by(earths_magnetic_field, molten_outer_core, [2024, 6, 8, 180819]) => The Earth's magnetic field is generated by the molten outer core. 
 
-The Great Wall of China is not visible from the Moon without aid. => visible_from_moon_without_aid(great_wall_of_china, no, [2024, 6, 8, 133106]) => The Great Wall of China is not visible from the moon without aid. 
+The primary language spoken in Brazil is Portuguese. => primary_language_spoken_in(brazil, portuguese, [2024, 6, 8, 180902]) => The primary language spoken in Brazil is Portuguese. 
 
-The Amazon River is the second longest river in the world. => second_longest_river(amazon_river, world, [2024, 06, 08, 133150]) => The Amazon River is the second longest river in the world. 
+The currency of the United Kingdom is the pound sterling. => currency(united_kingdom, pound_sterling, [2024, 6, 8, 180946]) => The currency of the United Kingdom is the pound sterling. 
 
-The Amazon Rainforest is home to approximately 10% of the known species on Earth. => percentage_of_known_species_on_earth(amazon_rainforest, 10, [2024, 6, 8, 133233]) => The Amazon rainforest contains 10% of known species on Earth. 
+The Sahara Desert was once lush and green. => scenery(sahara_desert, [lush, green], [2024, 6, 8, 181029]) => The Sahara Desert is not lush or green. 
 
-The tallest tree in the world is a redwood named Hyperion. => tallest_tree_in_the_world(redwood, hyperion, [2024, 6, 8, 133316]) => The tallest tree in the world is a redwood named Hyperion. 
+The Sahara Desert is expanding by approximately 0.8 kilometers per month. => expanding_by_km_per_month(sahara_desert, 08, [2024, 6, 8, 181113]) => The Sahara Desert is expanding by 8 km per month. 
 
-The deepest part of the ocean is the Challenger Deep in the Mariana Trench. => deepest_part(ocean, challenger_deep, mariana_trench, [2024, 6, 8, 133359]) => The deepest part of the ocean is the Challenger Deep in the Mariana Trench. 
+The primary language spoken in Egypt is Arabic. => primary_language(egypt, arabic, [2024, 06, 08, 181156]) => The primary language of Egypt is Arabic. 
 
-The scientific name for humans is Homo sapiens. => scientific_name(human, homo_sapiens, [2024, 6, 8, 133443]) => The scientific name of a human is homo sapiens. 
+The Great Wall of China was built over several centuries. => built\_over(great\_wall\_of\_china, several\_centuries, [2024, 6, 8, 181238]) => The Great Wall of China was built over several centuries. 
 
-The capital of Italy is Rome. => capital_of(italy, rome, [2024, 6, 8, 133525]) => Rome is the capital of Italy. 
+The currency of China is the yuan. => currency(china, yuan, [2024, 6, 8, 181322]) => The currency of China is the yuan. 
 
-The Amazon Rainforest is home to more than 400 billion individual trees. => number_of_trees(amazon_rainforest, 400000000000, [2024, 6, 8, 133609]) => The Amazon rainforest has 400000000000 trees. 
+The human body contains about 206 bones. => number_of_bones(human_body, 206, [2024, 6, 8, 181405]) => The human body has 206 bones. 
 
-The largest planet in our solar system is Jupiter. => largest_planet(solar_system, jupiter, [2024, 6, 8, 133652]) => Jupiter is the largest planet in the solar system. 
+The primary language spoken in France is French. => primary_language_spoken(france, french, [2024, 6, 8, 181448]) => The primary language spoken in France is French. 
 
-The chemical symbol for carbon is C. => chemical_symbol(carbon, c, [2024, 6, 8, 133735]) => The chemical symbol of carbon is C. 
+The capital of Australia is Sydney. => capital_of(australia, sydney, [2024, 6, 8, 181532]) => Sydney is the capital of Australia. 
 
-The primary language spoken in Brazil is Portuguese. => primary_language_spoken_in(brazil, portuguese, [2024, 6, 8, 133818]) => The primary language spoken in Brazil is Portuguese. 
+The coldest temperature ever recorded in Asia was -90 degrees Fahrenheit (-68 degrees Celsius) in Russia. => coldest_temperature_fahrenheit(asia, russia, -90, [2024, 06, 08, 181614]) coldest_temperature_celsius(asia, russia, -68, [2024, 06, 08, 181614]) => The coldest temperature in Asia was -90 degrees Fahrenheit in Russia. The coldest temperature in Asia was -68 degrees Celsius in Russia. 
 
-The Amazon Rainforest produces approximately 20% of the world's oxygen. => produces_oxygen_percent(amazon_rainforest, 20, [2024, 6, 8, 133901]) => The Amazon Rainforest produces 20% of the world's oxygen. 
+The Earth's atmosphere is composed primarily of nitrogen. => composed_of(earth_atmosphere, nitrogen, [2024, 6, 8, 181659]) => The Earth's atmosphere is composed of nitrogen. 
 
-The primary language spoken in India is Hindi. => primary_language_spoken(india, hindi, [2024, 6, 8, 133944]) => The primary language spoken in India is Hindi. 
+The Pacific Ocean covers more area than all the landmasses on Earth combined. => covers_more_area_than(pacific_ocean, all_landmasses_on_earth_combined, [2024, 06, 08, 181743]) => The Pacific Ocean covers more area than all the landmasses on Earth combined. 
 
-The human body contains about 206 bones. => number_of_bones(human_body, 206, [2024, 6, 8, 134027]) => The human body has 206 bones. 
+The Pacific Ocean covers more than 60 million square miles. => covers_in_sq_miles(pacific_ocean, more_than, 60000000, [2024, 6, 8, 181826]) => The Pacific Ocean covers more than 60,000,000 square miles. 
 
-The human body contains about 2-5 million sweat glands. => number_in_millions(sweat_glands, human_body, 2, 5,  [2024, 6, 8, 134110]) => The human body has between 2 and 5 million sweat glands. 
+The Earth's atmosphere protects life from harmful solar radiation. => protects_from(earths_atomosphere, life, harmful_solar_radiation, [2024, 6, 8, 181910]) => The Earth's atmosphere protects life from harmful solar radiation. 
 
-The capital of Russia is Moscow. => capital_of(russia, moscow, [2024, 6, 8, 134156]) => Moscow is the capital of Russia. 
+The Eiffel Tower was completed in 1889. => year_completed(eiffel_tower, 1889, [2024, 6, 8, 181953]) => The Eiffel Tower was completed in 1889. 
 
-The primary gas in Earth's atmosphere is nitrogen. => primary_gas(earth_atmosphere, nitrogen, [2024, 6, 8, 134239]) => The primary gas in the Earth's atmosphere is nitrogen. 
+The chemical symbol for sodium is Na. => chemical_symbol(sodium, na, [2024, 6, 8, 182036]) => The chemical symbol of Sodium is Na. 
 
-The Sahara Desert is expanding southward. => expanding(sahara_desert, southward, [2024, 6, 8, 134323]) => The Sahara Desert is expanding southward. 
+Humans share 98% of their DNA with chimpanzees. => dna_similarity(human, chimpanzee, 98, [2024, 6, 8, 182119]) => The DNA similarity between a human and a chimpanzee is 98%. 
 
-The freezing point of water is 0 degrees Celsius. => freezing_point_celsius(water, 0, [2024, 6, 8, 134406]) => The freezing point of water in Celsius is 0. 
+The chemical symbol for nitrogen is N. => chemical_symbol(nitrogen, n, [2024, 6, 8, 182202]) => The chemical symbol of Nitrogen is N. 
 
-The Earth's atmosphere is composed primarily of nitrogen. => composed_of(earth_atmosphere, nitrogen, [2024, 6, 8, 134449]) => Earth's atmosphere is composed of nitrogen. 
+The chemical symbol for oxygen is O. => chemical_symbol(oxygen, o, [2024, 6, 8, 182246]) => The chemical symbol of oxygen is O. 
 
-The Sahara Desert was once home to ancient civilizations. => once_home_to(sahara_desert, ancient_civilizations, [2024, 6, 8, 134532]) => The Sahara Desert was once home to ancient civilizations. 
+The capital of China is Beijing. => capital_of(china, beijing, [2024, 6, 8, 182329]) => Beijing is the capital of China. 
 
-The Mona Lisa was painted by Leonardo da Vinci. => painted_by(mona_lisa, leonardo_da_vinci, [2024, 6, 8, 134614]) => The Mona Lisa was painted by Leonardo da Vinci. 
+The Pacific Ocean is the largest ocean on Earth. => largest_ocean(pacific_ocean, earth, [2024, 6, 8, 182412]) => The Pacific Ocean is the largest ocean on Earth. 
 
-The tallest building in the world is the Burj Khalifa in Dubai. => tallest_building_in_the_world(burj_khalifa, dubai, [2024, 6, 8, 134658]) => The tallest building in the world is the Burj Khalifa, located in Dubai. 
+The primary language spoken in France is French. => primary_language_spoken(france, french, [2024, 6, 8, 182455]) => The primary language spoken in France is French. 
 
-The Pacific Ocean covers more than 60 million square miles. => covers_in_square_miles(pacific_ocean, more_than, 60000000, [2024, 6, 8, 134741]) => The Pacific Ocean covers more than 60,000,000 square miles. 
+The capital of Spain is Madrid. => capital_of(spain, madrid, [2024, 6, 8, 182538]) => Madrid is the capital of Spain. 
 
-The Great Wall of China was built over several centuries. => built_over(great_wall_of_china, several_centuries, [2024, 6, 8, 134824]) => The Great Wall of China was built over several centuries. 
+The Moon orbits the Earth approximately every 27.3 days. => orbital_period_days(moon, earth, 273, [2024, 6, 8, 182621]) => The orbital period of the Moon around Earth is 27.3 days. 
 
-The capital of China is Beijing. => capital_of(china, beijing, [2024, 6, 8, 134907]) => Beijing is the capital of China. 
+The process of mitosis involves the division and duplication of a cell's nucleus and chromosomes, resulting in two genetically identical daughter cells. => process_of_mitosis([division_of_nucleus, duplication_of_nucleus, division_of_chromosomes, duplication_of_chromosomes, two_genetically_identical_daughter_cells], [2024, 6, 8, 182705]) => Mitosis is a process that involves division of the nucleus, duplication of the nucleus, division of chromosomes, duplication of chromosomes, and results in two genetically identical daughter cells. 
 
-The Moon orbits the Earth approximately every 27.3 days. => orbit_time(moon, earth, 273,  [2024, 6, 8, 134950]) => The moon orbits the earth in 273 hours. 
+In the process of photosynthesis, plants convert carbon dioxide, water, and sunlight into glucose and oxygen, utilizing chlorophyll in their cells. => photosynthesis_process(plants, [carbon_dioxide, water, sunlight], [glucose, oxygen], chlorophyll, [2024, 6, 8, 182749]) => Plants use carbon dioxide, water, and sunlight to produce glucose and oxygen in the presence of chlorophyll. 
 
-The Earth's surface is about 71% water. => percent_of_surface(earth, water, 71, [2024, 6, 8, 135033]) => 71 percent of the Earth's surface is water. 
+The chemical symbol for carbon is C. => chemical_symbol(carbon, c, [2024, 6, 8, 182833]) => The chemical symbol of carbon is C. 
 
-The chemical symbol for copper is Cu. => chemical_symbol(copper, cu, [2024, 6, 8, 135116]) => The chemical symbol of copper is cu. 
+The currency of Brazil is the Brazilian real. => currency(brazil, brazilian_real, [2024, 6, 8, 182915]) => The currency of Brazil is the Brazilian Real. 
 
-Mount Everest is the highest mountain in the world. => highest_mountain_in_the_world(mount_everest, [2024, 6, 8, 135158]) => Mount Everest is the highest mountain in the world. 
+The Amazon River is the second longest river in the world. => river_length_rank(amazon_river, 2, [2024, 6, 8, 182958]) => The Amazon River is the 2nd longest river. 
 
-The currency of Japan is the yen. => currency(japan, yen, [2024, 6, 8, 135241]) => The currency of Japan is the yen. 
+The primary language spoken in France is French. => primary_language_spoken(france, french, [2024, 6, 8, 183042]) => The primary language spoken in France is French. 
 
-The smallest country in the world is Vatican City. => smallest_country_in_the_world(vatican_city, [2024, 6, 8, 135324]) => Vatican City is the smallest country in the world. 
+The chemical symbol for neon is Ne. => chemical_symbol(neon, ne, [2024, 6, 8, 183126]) => The chemical symbol of neon is Ne. 
 

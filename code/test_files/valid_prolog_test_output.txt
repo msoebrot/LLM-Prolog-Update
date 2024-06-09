@@ -1,515 +1,513 @@
-height_in_meters(eiffel_tower, 324, [2024, 6, 8, 165807]).
-length_in_miles(great_wall_of_china, 13000, [2024, 6, 8, 165807]).
-shelf_life(honey, indefinitely, [2024, 6, 8, 165807]).
-largest_ocean(pacific_ocean, [2024, 6, 8, 165807]).
-berry(banana, [2024, 6, 8, 165807]).
-not_berry(strawberry, [2024, 6, 8, 165807]).
-number_of_bones(human, 206, [2024, 6, 8, 165807]).
-highest_mountain(mount_everest, [2024, 6, 8, 165807]).
-leap_year_frequency(4, [2024, 6, 8, 165807]).
-second_longest_river(amazon_river, [2024, 6, 8, 165807]).
-largest_land_animal(elephant, [2024, 6, 8, 165807]).
-capital_of(japan, tokyo, [2024, 6, 8, 165807]).
-speed_in_kms(light, 299792, [2024, 6, 8, 165807]).
-dna_similarity_percentage(human, chimpanzee, 98, [2024, 6, 8, 165807]).
-orbital_period_in_days(moon, earth, 273, [2024, 6, 8, 165807]).
-country(australia, [2024, 6, 8, 165807]).
-continent(australia, [2024, 6, 8, 165807]).
-longest_river_in(missouri_river, united_states, [2024, 6, 8, 165807]).
-revolution_period_in_days(earth, sun, 36525, [2024, 6, 8, 165807]).
-painted_by(mona_lisa, leonardo_da_vinci, [2024, 6, 8, 165807]).
-heart_size(blue_whale, small_car, [2024, 6, 8, 165807]).
-gift_from(statue_of_liberty, france, united_states, [2024, 6, 8, 165807]).
-oldest_wonder(great_pyramid_of_giza, [2024, 6, 8, 165807]).
-freezing_point_celsius(water, 0, [2024, 6, 8, 165807]).
-chemical_symbol(gold, au, [2024, 6, 8, 165807]).
-capital_of(canada, ottawa, [2024, 6, 8, 165807]).
-marine_mammal(dolphin, [2024, 6, 8, 165807]).
-highly_intelligent(dolphin, [2024, 6, 8, 165807]).
-first_manned_moon_landing(1969, [2024, 6, 8, 165807]).
-largest_desert(sahara_desert, [2024, 6, 8, 165807]).
-currency(japan, yen, [2024, 6, 8, 165807]).
-weight_in_pounds(human_brain, 3, [2024, 6, 8, 165807]).
-referred_to_as(amazon_rainforest, lungs_of_the_earth, [2024, 6, 8, 165807]).
-largest_coral_reef_system(great_barrier_reef, [2024, 6, 8, 165807]).
-chemical_symbol(oxygen, o, [2024, 6, 8, 165807]).
-currency(united_kingdom, pound_sterling, [2024, 6, 8, 165807]).
-tallest_building(burj_khalifa, [2024, 6, 8, 165807]).
-location(burj_khalifa, dubai, [2024, 6, 8, 165807]).
-flightless_bird(penguin, [2024, 6, 8, 165807]).
-scientific_name(human, homo_sapiens, [2024, 6, 8, 165807]).
-capital_of(brazil, brasilia, [2024, 6, 8, 165807]).
-longest_bone(femur, [2024, 6, 8, 165807]).
-second_largest_ocean(atlantic_ocean, [2024, 6, 8, 165807]).
-smallest_country(vatican_city, [2024, 6, 8, 165807]).
-primary_language(argentina, spanish, [2024, 6, 8, 165807]).
-body_water_percentage(human, 60, [2024, 6, 8, 165807]).
-number_of_continents(7, [2024, 6, 8, 165807]).
-currency(australia, australian_dollar, [2024, 6, 8, 165807]).
-first_artificial_satellite(sputnik, [2024, 6, 8, 165807]).
-launched_by(sputnik, soviet_union, [2024, 6, 8, 165807]).
-oxygen_production_percentage(amazon_rainforest, 20, [2024, 6, 8, 165807]).
-color_distinction(human_eye, 10000000, [2024, 6, 8, 165807]).
-location(eiffel_tower, paris_france, [2024, 6, 8, 165807]).
-capital_of(italy, rome, [2024, 6, 8, 165807]).
-longest_river_in(nile_river, africa, [2024, 6, 8, 165807]).
-currency(india, indian_rupee, [2024, 06, 08, 165856]).
-chemical_symbol(iron, fe, [2024, 06, 08, 165856]).
-atmosphere_composition(earth, nitrogen, [2024, 06, 08, 165856]).
-primary_language(egypt, arabic, [2024, 06, 08, 165856]).
-area_covered_in_square_miles(pacific_ocean, 60000000, [2024, 06, 08, 165856]).
-capital(russia, moscow, [2024, 06, 08, 165856]).
-deepest_part(ocean, mariana_trench, [2024, 06, 08, 165856]).
-chemical_symbol(helium, he, [2024, 06, 08, 165856]).
-construction_time(great_wall_of_china, centuries, [2024, 06, 08, 165856]).
-capital(south_africa, pretoria, [2024, 06, 08, 165856]).
-smallest_planet(solar_system, mercury, [2024, 06, 08, 165856]).
-largest_planet(solar_system, jupiter, [2024, 06, 08, 165856]).
-capital(france, paris, [2024, 06, 08, 165856]).
-core_composition(earth, [iron, nickel], [2024, 06, 08, 165856]).
-chemical_symbol(sodium, na, [2024, 06, 08, 165856]).
-senses(human_body, [sight, hearing, taste, smell, touch], [2024, 06, 08, 165856]).
-capital(germany, berlin, [2024, 06, 08, 165856]).
-species_percentage(amazon_rainforest, 10, [2024, 06, 08, 165856]).
-primary_language(brazil, portuguese, [2024, 06, 08, 165856]).
-currency(china, yuan, [2024, 06, 08, 165856]).
-causes(earth_rotation, day_and_night, [2024, 06, 08, 165856]).
-capital(mexico, mexico_city, [2024, 06, 08, 165856]).
-primary_gas(earth_atmosphere, nitrogen, [2024, 06, 08, 165856]).
-chemical_symbol(carbon, c, [2024, 06, 08, 165856]).
-largest_island(world, greenland, [2024, 06, 08, 165856]).
-capital(spain, madrid, [2024, 06, 08, 165856]).
-keeps_in_orbit(earth_gravitational_pull, moon, [2024, 06, 08, 165856]).
-chemical_symbol(hydrogen, h, [2024, 06, 08, 165856]).
-flows_through_countries(amazon_river, 9, [2024, 06, 08, 165856]).
-capital(kenya, nairobi, [2024, 06, 08, 165856]).
-heartbeats_per_day(human, 100000, [2024, 06, 08, 165856]).
-surface_water_percentage(earth, 71, [2024, 06, 08, 165856]).
-chemical_symbol(calcium, ca, [2024, 06, 08, 165856]).
-largest_ocean(earth, pacific_ocean, [2024, 06, 08, 165856]).
-capital(argentina, buenos_aires, [2024, 06, 08, 165856]).
-primary_language(canada, english, [2024, 06, 08, 165856]).
-currency(switzerland, swiss_franc, [2024, 06, 08, 165856]).
-area_covered_in_square_kilometers(amazon_rainforest, 5500000, [2024, 06, 08, 165856]).
-capital(australia, canberra, [2024, 06, 08, 165856]).
-protects_from(earth_atmosphere, life, harmful_solar_radiation, [2024, 06, 08, 165856]).
-chemical_symbol(chlorine, cl, [2024, 06, 08, 165856]).
-capital(egypt, cairo, [2024, 06, 08, 165856]).
-largest_mammal(earth, blue_whale, [2024, 06, 08, 165856]).
-primary_language(france, french, [2024, 06, 08, 165856]).
-currency(brazil, brazilian_real, [2024, 06, 08, 165856]).
-largest_drainage_basin(world, amazon_river_basin, [2024, 06, 08, 165856]).
-capital(india, new_delhi, [2024, 06, 08, 165856]).
-generated_by(earth_magnetic_field, molten_outer_core, [2024, 06, 08, 165856]).
-chemical_symbol(potassium, k, [2024, 06, 08, 165856]).
-capital(japan, tokyo, [2024, 06, 08, 165856]).
-number_of_trees(amazon_rainforest, 400000000000, [2024, 6, 8, 165944]).
-time_existed_in_years(sharks, 400000000, [2024, 6, 8, 165944]).
-number_of_teeth(human, 32, [2024, 6, 8, 165944]).
-surface_coverage_percent(atlantic_ocean, earth, 20, [2024, 6, 8, 165944]).
-speed_in_meters_per_second(sound, air, 343, [2024, 6, 8, 165944]).
-capital_of(australia, canberra, [2024, 6, 8, 165944]).
-completion_year(eiffel_tower, 1889, [2024, 6, 8, 165944]).
-chemical_symbol(silver, ag, [2024, 6, 8, 165944]).
-number_of_countries_flown_through(nile_river, 11, [2024, 6, 8, 165944]).
-number_of_neurons(human_brain, 86000000000, [2024, 6, 8, 165944]).
-capital_of(china, beijing, [2024, 6, 8, 165944]).
-divided_into(earth_crust, tectonic_plates, [2024, 6, 8, 165944]).
-chemical_symbol(gold, au, [2024, 6, 8, 165944]).
-visible_from(great_barrier_reef, space, [2024, 6, 8, 165944]).
-larger_than(pacific_ocean, landmasses, [2024, 6, 8, 165944]).
-number_of_chambers(human_heart, 4, [2024, 6, 8, 165944]).
-capital_of(united_states, 'washington, dc', [2024, 6, 8, 165944]).
-oxygen_production_percent(amazon_rainforest, world, 20, [2024, 6, 8, 165944]).
-size_compared_to(moon, earth, '1/6th', [2024, 6, 8, 165944]).
-primary_language(india, hindi, [2024, 6, 8, 165944]).
-currency(united_states, dollar, [2024, 6, 8, 165944]).
-longest_river(nile_river, [2024, 6, 8, 165944]).
-atmospheric_composition(earth, [nitrogen, 78, oxygen, 21], [2024, 6, 8, 165944]).
-time_to_build_in_years(great_wall_of_china, 2000, [2024, 6, 8, 165944]).
-tallest(mount_everest, [2024, 6, 8, 165944]).
-chemical_symbol(water, h2o, [2024, 6, 8, 165944]).
-causes(earth_rotation, day_and_night, [2024, 6, 8, 165944]).
-capital_of(united_kingdom, london, [2024, 6, 8, 165944]).
-number_of_countries_flown_through(amazon_river, 9, [2024, 6, 8, 165944]).
-primary_language(japan, japanese, [2024, 6, 8, 165944]).
-currency(european_union, euro, [2024, 6, 8, 165944]).
-largest_desert(antarctic_desert, [2024, 6, 8, 165944]).
-primarily_composed_of(earth_core, [iron, nickel], [2024, 6, 8, 165944]).
-chemical_symbol(salt, nacl, [2024, 6, 8, 165944]).
-largest_ocean(pacific_ocean, [2024, 6, 8, 165944]).
-capital_of(france, paris, [2024, 6, 8, 165944]).
-water_percentage(human_body, 60, [2024, 6, 8, 165944]).
-largest_tropical_rainforest(amazon_rainforest, [2024, 6, 8, 165944]).
-orbital_period_in_days(moon, earth, 273, [2024, 6, 8, 165944]).
-length_in_miles(great_wall_of_china, 13000, [2024, 6, 8, 165944]).
-chemical_symbol(oxygen, o, [2024, 6, 8, 165944]).
-area_in_square_miles(pacific_ocean, 60000000, [2024, 6, 8, 165944]).
-capital_of(russia, moscow, [2024, 6, 8, 165944]).
-protects_from(earth_atmosphere, life, harmful_solar_radiation, [2024, 6, 8, 165944]).
-currency(japan, yen, [2024, 6, 8, 165944]).
-tallest_building(burj_khalifa, [2024, 6, 8, 165944]).
-keeps_in_orbit(earth_gravitational_pull, moon, earth, [2024, 6, 8, 165944]).
-primary_language(brazil, portuguese, [2024, 6, 8, 165944]).
-currency(united_kingdom, pound_sterling, [2024, 6, 8, 165944]).
-area_in_square_kilometers(amazon_rainforest, 5500000, [2024, 6, 8, 165944]).
-largest_coral_reef_system(great_barrier_reef, [2024, 06, 08, 170034]).
-chemical_symbol(helium, he, [2024, 06, 08, 170034]).
-weight_in_pounds(human_brain, 3, [2024, 06, 08, 170034]).
-second_longest_river(amazon_river, [2024, 06, 08, 170034]).
-surface_water_percentage(earth, 71, [2024, 06, 08, 170034]).
-capital_of(germany, berlin, [2024, 06, 08, 170034]).
-chemical_symbol(hydrogen, h, [2024, 06, 08, 170034]).
-primary_language_spoken(egypt, arabic, [2024, 06, 08, 170034]).
-as_hot_as(earth_core, surface_of_sun, [2024, 06, 08, 170034]).
-largest_island(greenland, [2024, 06, 08, 170034]).
-capital_of(italy, rome, [2024, 06, 08, 170034]).
-species_percentage(amazon_rainforest, 10, [2024, 06, 08, 170034]).
-primarily_composed_of(earth_atmosphere, nitrogen, [2024, 06, 08, 170034]).
-primary_language_spoken(canada, english, [2024, 06, 08, 170034]).
-currency(china, yuan, [2024, 06, 08, 170034]).
-human_senses([sight, hearing, taste, smell, touch], [2024, 06, 08, 170034]).
-chemical_symbol(carbon, c, [2024, 06, 08, 170034]).
-capital_of(brazil, brasília, [2024, 06, 08, 170034]).
-oxygen_produced(amazon_rainforest, 20, [2024, 06, 08, 170034]).
-number_of_continents(earth, 7, [2024, 06, 08, 170034]).
-primary_language_spoken(argentina, spanish, [2024, 06, 08, 170034]).
-chemical_symbol(iron, fe, [2024, 06, 08, 170034]).
-largest_ocean(pacific_ocean, [2024, 06, 08, 170034]).
-capital_of(south_africa, pretoria, [2024, 06, 08, 170034]).
-number_of_neurons(human_brain, 86000000000, [2024, 06, 08, 170034]).
-chemical_symbol(sodium, na, [2024, 06, 08, 170034]).
-atmospheric_composition(earth, [nitrogen, 78, oxygen, 21], [2024, 06, 08, 170034]).
-capital_of(mexico, mexico_city, [2024, 06, 08, 170034]).
-countries_flown_through(amazon_river, 9, [2024, 06, 08, 170034]).
-primary_language_spoken(france, french, [2024, 06, 08, 170034]).
-currency(australia, australian_dollar, [2024, 06, 08, 170034]).
-causes(earth_rotation, day_and_night, [2024, 06, 08, 170034]).
-tallest_mountain(mount_everest, [2024, 06, 08, 170034]).
-chemical_symbol(water, h2o, [2024, 06, 08, 170034]).
-stretches_miles(great_wall_of_china, 13000, [2024, 06, 08, 170034]).
-capital_of(japan, tokyo, [2024, 06, 08, 170034]).
-number_of_bones(human_body, 206, [2024, 06, 08, 170034]).
-largest_tropical_rainforest(amazon_rainforest, [2024, 06, 08, 170034]).
-orbital_period_in_days(moon, earth, 273, [2024, 06, 08, 170034]).
-primary_language_spoken(india, hindi, [2024, 06, 08, 170034]).
-currency(united_states, dollar, [2024, 06, 08, 170034]).
-longest_river(nile_river, [2024, 06, 08, 170034]).
-primarily_composed_of(earth_atmosphere, nitrogen, [2024, 06, 08, 170034]).
-built_over(great_wall_of_china, several_centuries, [2024, 06, 08, 170034]).
-tallest_building(burj_khalifa, dubai, [2024, 06, 08, 170034]).
-chemical_symbol(helium, he, [2024, 06, 08, 170034]).
-weight_in_pounds(human_brain, 3, [2024, 06, 08, 170034]).
-second_longest_river(amazon_river, [2024, 06, 08, 170034]).
-surface_water_percentage(earth, 71, [2024, 06, 08, 170034]).
-capital_of(germany, berlin, [2024, 06, 08, 170034]).
-chemical_symbol(hydrogen, h, [2024, 6, 8, 170124]).
-primary_language_spoken_in(egypt, arabic, [2024, 6, 8, 170124]).
-earths_core_primarily_composed_of(iron, nickel, [2024, 6, 8, 170124]).
-largest_island(greenland, [2024, 6, 8, 170124]).
-capital_of(italy, rome, [2024, 6, 8, 170124]).
-amazon_rainforest_is_home_to(10, [2024, 6, 8, 170124]).
-earth_atmosphere_composed_primarily_of(nitrogen, [2024, 6, 8, 170124]).
-primary_language_spoken_in(canada, english, [2024, 6, 8, 170124]).
-currency_of(china, yuan, [2024, 6, 8, 170124]).
-human_body_has_senses([sight, hearing, taste, smell, touch], [2024, 6, 8, 170124]).
-chemical_symbol(carbon, c, [2024, 6, 8, 170124]).
-capital_of(brazil, brasília, [2024, 6, 8, 170124]).
-amazon_rainforest_produces(20, [2024, 6, 8, 170124]).
-earth_has_continents(7, [2024, 6, 8, 170124]).
-primary_language_spoken_in(argentina, spanish, [2024, 6, 8, 170124]).
-chemical_symbol(iron, fe, [2024, 6, 8, 170124]).
-largest_ocean(pacific_ocean, [2024, 6, 8, 170124]).
-capital_of(south_africa, pretoria, [2024, 6, 8, 170124]).
-human_brain_has_neurons(86000000000, [2024, 6, 8, 170124]).
-chemical_symbol(sodium, na, [2024, 6, 8, 170124]).
-earth_atmosphere_composed_of(nitrogen, 78, oxygen, 21, [2024, 6, 8, 170124]).
-capital_of(mexico, mexico_city, [2024, 6, 8, 170124]).
-amazon_river_flows_through(9, [2024, 6, 8, 170124]).
-primary_language_spoken_in(france, french, [2024, 6, 8, 170124]).
-currency_of(australia, australian_dollar, [2024, 6, 8, 170124]).
-earth_rotation_causes(day, night, [2024, 6, 8, 170124]).
-tallest_mountain(mount_everest, [2024, 6, 8, 170124]).
-chemical_symbol(water, h2o, [2024, 6, 8, 170124]).
-great_wall_of_china_stretches(13000, [2024, 6, 8, 170124]).
-capital_of(japan, tokyo, [2024, 6, 8, 170124]).
-human_body_contains_bones(206, [2024, 6, 8, 170124]).
-largest_tropical_rainforest(amazon_rainforest, [2024, 6, 8, 170124]).
-moon_orbits_earth(273, [2024, 6, 8, 170124]).
-primary_language_spoken_in(india, hindi, [2024, 6, 8, 170124]).
-currency_of(united_states, dollar, [2024, 6, 8, 170124]).
-longest_river(nile_river, [2024, 6, 8, 170124]).
-earth_atmosphere_composed_primarily_of(nitrogen, [2024, 6, 8, 170124]).
-great_wall_of_china_built_over(centuries, [2024, 6, 8, 170124]).
-tallest_building(burj_khalifa, [2024, 6, 8, 170124]).
-chemical_symbol(helium, he, [2024, 6, 8, 170124]).
-human_brain_weighs(3, [2024, 6, 8, 170124]).
-second_longest_river(amazon_river, [2024, 6, 8, 170124]).
-earth_surface_water(71, [2024, 6, 8, 170124]).
-capital_of(germany, berlin, [2024, 6, 8, 170124]).
-chemical_symbol(hydrogen, h, [2024, 6, 8, 170124]).
-primary_language_spoken_in(egypt, arabic, [2024, 6, 8, 170124]).
-earths_core_primarily_composed_of(iron, nickel, [2024, 6, 8, 170124]).
-largest_island(greenland, [2024, 6, 8, 170124]).
-capital_of(italy, rome, [2024, 6, 8, 170124]).
-amazon_rainforest_is_home_to(10, [2024, 6, 8, 170124]).
-composed_primarily_of(earth_atmosphere, nitrogen, [2024, 06, 10, 170210]).
-primary_language_spoken_in(canada, english, [2024, 06, 10, 170210]).
-currency_of(china, yuan, [2024, 06, 10, 170210]).
-human_body_senses([sight, hearing, taste, smell, touch], [2024, 06, 10, 170210]).
-chemical_symbol(carbon, c, [2024, 06, 10, 170210]).
-capital_of(brazil, brasília, [2024, 06, 10, 170210]).
-percent_oxygen_produced(amazon_rainforest, 20, [2024, 06, 10, 170210]).
-number_of_continents(earth, 7, [2024, 06, 10, 170210]).
-primary_language_spoken_in(argentina, spanish, [2024, 06, 10, 170210]).
-chemical_symbol(iron, fe, [2024, 06, 10, 170210]).
-largest_ocean(pacific_ocean, [2024, 06, 10, 170210]).
-capital_of(south_africa, pretoria, [2024, 06, 10, 170210]).
-number_of_neurons_in_human_brain(86000000000, [2024, 06, 10, 170210]).
-chemical_symbol(sodium, na, [2024, 06, 10, 170210]).
-earth_atmosphere_composition([nitrogen, 78, oxygen, 21], [2024, 06, 10, 170210]).
-capital_of(mexico, mexico_city, [2024, 06, 10, 170210]).
-number_of_countries_amazon_flows_through(9, [2024, 06, 10, 170210]).
-primary_language_spoken_in(france, french, [2024, 06, 10, 170210]).
-currency_of(australia, australian_dollar, [2024, 06, 10, 170210]).
-cause_of(earth_rotation, [day, night], [2024, 06, 10, 170210]).
-tallest_mountain(mount_everest, [2024, 06, 10, 170210]).
-chemical_symbol(water, h2o, [2024, 06, 10, 170210]).
-great_wall_of_china_length_in_miles(13000, [2024, 06, 10, 170210]).
-capital_of(japan, tokyo, [2024, 06, 10, 170210]).
-number_of_bones_in_human_body(206, [2024, 06, 10, 170210]).
-largest_tropical_rainforest(amazon_rainforest, [2024, 06, 10, 170210]).
-moon_orbit_in_days(273, [2024, 06, 10, 170210]).
-primary_language_spoken_in(india, hindi, [2024, 06, 10, 170210]).
-currency_of(united_states, dollar, [2024, 06, 10, 170210]).
-longest_river(nile_river, [2024, 06, 10, 170210]).
-composed_primarily_of(earth_atmosphere, nitrogen, [2024, 06, 10, 170210]).
-great_wall_of_china_built(several_centuries, [2024, 06, 10, 170210]).
-tallest_building(burj_khalifa, [2024, 06, 10, 170210]).
-chemical_symbol(helium, he, [2024, 06, 10, 170210]).
-human_brain_weight_in_pounds(3, [2024, 06, 10, 170210]).
-second_longest_river(amazon_river, [2024, 06, 10, 170210]).
-earth_surface_water_percentage(71, [2024, 06, 10, 170210]).
-capital_of(germany, berlin, [2024, 06, 10, 170210]).
-chemical_symbol(hydrogen, h, [2024, 06, 10, 170210]).
-primary_language_spoken_in(egypt, arabic, [2024, 06, 10, 170210]).
-earth_core_composition([iron, nickel], [2024, 06, 10, 170210]).
-largest_island(greenland, [2024, 06, 10, 170210]).
-capital_of(italy, rome, [2024, 06, 10, 170210]).
-amazon_rainforest_species_percentage(10, [2024, 06, 10, 170210]).
-composed_primarily_of(earth_atmosphere, nitrogen, [2024, 06, 10, 170210]).
-primary_language_spoken_in(canada, english, [2024, 06, 10, 170210]).
-currency_of(china, yuan, [2024, 06, 10, 170210]).
-human_body_senses([sight, hearing, taste, smell, touch], [2024, 06, 10, 170210]).
-chemical_symbol(carbon, c, [2024, 06, 10, 170210]).
-capital_of(brazil, brasília, [2024, 06, 10, 170210]).
-smallest_bone_in_body(stapes, ear, [2024, 06, 08, 170259]).
-capital_of(spain, madrid, [2024, 06, 08, 170259]).
-number_of_hearts(octopus, 3, [2024, 06, 08, 170259]).
-chemical_symbol(lead, pb, [2024, 06, 08, 170259]).
-deepest_part_of_ocean(challenger_deep, mariana_trench, [2024, 06, 08, 170259]).
-primary_language_spoken_in(russia, russian, [2024, 06, 08, 170259]).
-hotter(lightning_bolt, surface_of_sun, [2024, 06, 08, 170259]).
-currency_of(south_korea, korean_won, [2024, 06, 08, 170259]).
-number_of_muscles_in_body(more_than, 600, [2024, 06, 08, 170259]).
-gift_from(statue_of_liberty, france, united_states, [2024, 06, 08, 170259]).
-group_name(flamingos, flamboyance, [2024, 06, 08, 170259]).
-capital_of(sweden, stockholm, [2024, 06, 08, 170259]).
-chemical_symbol(silver, ag, [2024, 06, 08, 170259]).
-number_of_colors_eye_distinguish(10000000, [2024, 06, 08, 170259]).
-number_of_sides(great_pyramid_of_giza, 4, [2024, 06, 08, 170259]).
-primary_language_spoken_in(germany, german, [2024, 06, 08, 170259]).
-daily_sun_events(international_space_station, 16, [2024, 06, 08, 170259]).
-currency_of(switzerland, swiss_franc, [2024, 06, 08, 170259]).
-sahara_desert_expansion_per_month(08, kilometers, [2024, 06, 08, 170259]).
-iron_in_body_makes_nail_length(3, inches, [2024, 06, 08, 170259]).
-primary_language_spoken_in(south_korea, korean, [2024, 06, 08, 170259]).
-chemical_symbol(tin, sn, [2024, 06, 08, 170259]).
-most_airports(united_states, [2024, 06, 08, 170259]).
-max_voltage_of_lightning(3000000, volts, [2024, 06, 08, 170259]).
-capital_of(china, beijing, [2024, 06, 08, 170259]).
-jellyfish_age(more_than, 500000000, years, [2024, 06, 08, 170259]).
-chemical_symbol(aluminum, al, [2024, 06, 08, 170259]).
-daily_gastric_juice_production(2, liters, [2024, 06, 08, 170259]).
-primary_language_spoken_in(italy, italian, [2024, 06, 08, 170259]).
-lightning_speed(220000, miles, [2024, 06, 08, 170259]).
-currency_of(canada, canadian_dollar, [2024, 06, 08, 170259]).
-number_of_atmosphere_layers(5, [2024, 06, 08, 170259]).
-primary_language_spoken_in(australia, english, [2024, 06, 08, 170259]).
-chemical_symbol(mercury, hg, [2024, 06, 08, 170259]).
-carbon_in_body_makes_number_of_pencils(900, [2024, 06, 08, 170259]).
-also_known_as(northern_lights, aurora_borealis, [2024, 06, 08, 170259]).
-capital_of(south_korea, seoul, [2024, 06, 08, 170259]).
-chemical_symbol(titanium, ti, [2024, 06, 08, 170259]).
-human_brain_power(12, 25, watts, [2024, 06, 08, 170259]).
-not_visible_from_space(great_wall_of_china, [2024, 06, 08, 170259]).
-primary_language_spoken_in(spain, spanish, [2024, 06, 08, 170259]).
-lightning_heat(30000, celcius, [2024, 06, 08, 170259]).
-currency_of(mexico, mexican_peso, [2024, 06, 08, 170259]).
-largest_volcano(earths, mauna_loa, hawaii, [2024, 06, 08, 170259]).
-primary_language_spoken_in(turkey, turkish, [2024, 06, 08, 170259]).
-chemical_symbol(nickel, ni, [2024, 06, 08, 170259]).
-survival_time_without_food(weeks, [2024, 06, 08, 170259]).
-survival_time_without_water(days, [2024, 06, 08, 170259]).
-tallest_tree(hyperion, redwood, [2024, 06, 08, 170259]).
-capital_of(argentina, buenos_aires, [2024, 06, 08, 170259]).
-chemical_symbol(zinc, zn, [2024, 06, 08, 170259]).
-daily_saliva_production_in_liters(human_body, 1, 2, [2024, 06, 08, 170351]).
-primary_language(greece, greek, [2024, 06, 08, 170351]).
-currency(japan, yen, [2024, 06, 08, 170351]).
-max_speed_in_mph(lightning, 130000, [2024, 06, 08, 170351]).
-largest_desert(earth, antarctica, [2024, 06, 08, 170351]).
-primary_language(thailand, thai, [2024, 06, 08, 170351]).
-chemical_symbol(silicon, si, [2024, 06, 08, 170351]).
-blood_volume_in_liters(human_body, 5, [2024, 06, 08, 170351]).
-coldest_temperature_in_farenheit(earth, -1286, [2024, 06, 08, 170351]).
-coldest_temperature_in_celsius(earth, -892, [2024, 06, 08, 170351]).
-location_of_coldest_temperature(earth, antarctica, [2024, 06, 08, 170351]).
-capital(canada, ottawa, [2024, 06, 08, 170351]).
-chemical_symbol(potassium, k, [2024, 06, 08, 170351]).
-number_of_cell_types(human_body, 200, [2024, 06, 08, 170351]).
-smallest_country(africa, seychelles, [2024, 06, 08, 170351]).
-primary_language(switzerland, swiss_german, [2024, 06, 08, 170351]).
-chemical_symbol(copper, cu, [2024, 06, 08, 170351]).
-blood_volume_in_gallons(human_body, 12, 15, [2024, 06, 08, 170351]).
-number_of_species(amazon_rainforest, 10000000, [2024, 06, 08, 170351]).
-species_type(amazon_rainforest, [plants, animals, insects], [2024, 06, 08, 170351]).
-coldest_temperature_in_farenheit(united_states, -80, [2024, 06, 08, 170351]).
-coldest_temperature_in_celsius(united_states, -62, [2024, 06, 08, 170351]).
-location_of_coldest_temperature(united_states, alaska, [2024, 06, 08, 170351]).
-capital(peru, lima, [2024, 06, 08, 170351]).
-chemical_symbol(sulfur, s, [2024, 06, 08, 170351]).
-number_of_cells(human_body, 30000000000000, [2024, 06, 08, 170351]).
-deepest_lake(world, lake_baikal, [2024, 06, 08, 170351]).
-location_of_deepest_lake(world, russia, [2024, 06, 08, 170351]).
-primary_language(indonesia, indonesian, [2024, 06, 08, 170351]).
-chemical_symbol(phosphorus, p, [2024, 06, 08, 170351]).
-number_of_bacteria(human_body, 100000000000000, [2024, 06, 08, 170351]).
-same_size(sahara_desert, united_states, [2024, 06, 08, 170351]).
-primary_language(netherlands, dutch, [2024, 06, 08, 170351]).
-chemical_symbol(nitrogen, n, [2024, 06, 08, 170351]).
-number_of_cells(human_body, 37000000000000, [2024, 06, 08, 170351]).
-currency(russia, russian_ruble, [2024, 06, 08, 170351]).
-longest_mountain_range(earth, andes, [2024, 06, 08, 170351]).
-primary_language(nigeria, english, [2024, 06, 08, 170351]).
-chemical_symbol(calcium, ca, [2024, 06, 08, 170351]).
-number_of_neurons(human_body, 86000000000, [2024, 06, 08, 170351]).
-capital(south_africa, cape_town, [2024, 06, 08, 170351]).
-chemical_symbol(iodine, i, [2024, 06, 08, 170351]).
-bacterial_cells_greater_than_human_cells(human_body, 10, [2024, 06, 08, 170351]).
-deepest_part_of_ocean(pacific_ocean, mariana_trench, [2024, 06, 08, 170351]).
-primary_language(poland, polish, [2024, 06, 08, 170351]).
-chemical_symbol(magnesium, mg, [2024, 06, 08, 170351]).
-number_of_sweat_glands(human_body, 2000000, 5000000, [2024, 06, 08, 170351]).
-past_state(sahara_desert, [lush, green], [2024, 06, 08, 170351]).
-primary_language(ukraine, ukrainian, [2024, 06, 08, 170351]).
-chemical_symbol(fluorine, f, [2024, 06, 08, 170351]).
-number_of_bones(human_body, 206, [2024, 06, 08, 170351]).
-coldest_temperature_in_farenheit(asia, -90, [2024, 06, 08, 170351]).
-coldest_temperature_in_celsius(asia, -68, [2024, 06, 08, 170351]).
-location_of_coldest_temperature(asia, russia, [2024, 06, 08, 170351]).
-capital(australia, sydney, [2024, 06, 08, 170351]).
-chemical_symbol(neon, ne, [2024, 06, 08, 170351]).
-number_of_skeletal_muscles(human_body, 640, [2024, 06, 08, 170351]).
-largest_desert(asia, arabian_desert, [2024, 06, 08, 170351]).
-primary_language_spoken_in(saudi_arabia, arabic, [2024, 6, 8, 170448]).
-chemical_symbol(phosphorus, p, [2024, 6, 8, 170448]).
-area_of_skin_square_feet(human, 20, [2024, 6, 8, 170448]).
-deepest_part_of_ocean(atlantic_ocean, puerto_rico_trench, [2024, 6, 8, 170448]).
-primary_language_spoken_in(argentina, spanish, [2024, 6, 8, 170448]).
-chemical_symbol(nitrogen, n, [2024, 6, 8, 170448]).
-liters_of_blood(human, [4, 5], [2024, 6, 8, 170448]).
-home_to(amazon_rainforest, [plants, animals, insects], 10000000, [2024, 6, 8, 170448]).
-primary_language_spoken_in(brazil, portuguese, [2024, 6, 8, 170448]).
-chemical_symbol(sulfur, s, [2024, 6, 8, 170448]).
-number_of_cell_types(human, 200, [2024, 6, 8, 170448]).
-same_size_as(sahara_desert, united_states, [2024, 6, 8, 170448]).
-primary_language_spoken_in(netherlands, dutch, [2024, 6, 8, 170448]).
-chemical_symbol(nitrogen, n, [2024, 6, 8, 170448]).
-number_of_cells_in_body(human, 37000000000000, [2024, 6, 8, 170448]).
-currency(russia, russian_ruble, [2024, 6, 8, 170448]).
-longest_mountain_range(earth, andes, [2024, 6, 8, 170448]).
-primary_language_spoken_in(nigeria, english, [2024, 6, 8, 170448]).
-chemical_symbol(calcium, ca, [2024, 6, 8, 170448]).
-number_of_neurons_in_brain(human, 86000000000, [2024, 6, 8, 170448]).
-capital_of(south_africa, cape_town, [2024, 6, 8, 170448]).
-chemical_symbol(iodine, i, [2024, 6, 8, 170448]).
-bacterial_cells_vs_human_cells(human, 10, [2024, 6, 8, 170448]).
-deepest_part_of_ocean(pacific_ocean, mariana_trench, [2024, 6, 8, 170448]).
-primary_language_spoken_in(poland, polish, [2024, 6, 8, 170448]).
-chemical_symbol(magnesium, mg, [2024, 6, 8, 170448]).
-number_of_sweat_glands(human, [2000000, 5000000], [2024, 6, 8, 170448]).
-past_state(sahara_desert, [lush, green], [2024, 6, 8, 170448]).
-primary_language_spoken_in(ukraine, ukrainian, [2024, 6, 8, 170448]).
-chemical_symbol(fluorine, f, [2024, 6, 8, 170448]).
-number_of_bones(human, 206, [2024, 6, 8, 170448]).
-coldest_temperature_recorded_in(asia, -90, fahrenheit, russia, [2024, 6, 8, 170448]).
-coldest_temperature_recorded_in(asia, -68, celcius, russia, [2024, 6, 8, 170448]).
-capital_of(australia, sydney, [2024, 6, 8, 170448]).
-chemical_symbol(neon, ne, [2024, 6, 8, 170448]).
-number_of_skeletal_muscles(human, 640, [2024, 6, 8, 170448]).
-largest_desert(asia, arabian_desert, [2024, 6, 8, 170448]).
-primary_language_spoken_in(saudi_arabia, arabic, [2024, 6, 8, 170448]).
-chemical_symbol(phosphorus, p, [2024, 6, 8, 170448]).
-visible_from_space(great_barrier_reef, [2024, 6, 8, 170448]).
-number_of_shades_distinguishable_by_eye(human, 500, gray, [2024, 6, 8, 170448]).
-capital_of(thailand, bangkok, [2024, 6, 8, 170448]).
-speed_in_vacuum(light, 299792458, meters_per_second, [2024, 6, 8, 170448]).
-cannot_walk_backwards(kangaroos, [2024, 6, 8, 170448]).
-chemical_symbol(gold, au, [2024, 6, 8, 170448]).
-largest_sand_desert(world, rub_al_khali, [2024, 6, 8, 170448]).
-primary_language_spoken_in(china, mandarin_chinese, [2024, 6, 8, 170448]).
-covered_in(statue_of_liberty, torch, 24, carat, gold, [2024, 6, 8, 170448]).
-rate_of_movement_from_earth(moon, 15, inches_per_year, [2024, 6, 8, 170448]).
-chemical_symbol(mercury, hg, [2024, 6, 8, 170448]).
-not_visible_from_moon_unaided(great_wall_of_china, [2024, 6, 8, 170448]).
-primary_language_spoken_in(iran, persian, [2024, 6, 8, 170538]).
-number_of_muscles(human_body, 600, [2024, 6, 8, 170538]).
-bridges_crossing(amazon_river, 0, [2024, 6, 8, 170538]).
-earth_rotation(gradually_slowing_down, [2024, 6, 8, 170538]).
-chemical_symbol(sodium, na, [2024, 6, 8, 170538]).
-smallest_country_by_area(vatican_city, [2024, 6, 8, 170538]).
-primary_language_spoken_in(vietnam, vietnamese, [2024, 6, 8, 170538]).
-number_of_chromosomes(human_body, 46, [2024, 6, 8, 170538]).
-species_percentage(amazon_rainforest, 10, [2024, 6, 8, 170538]).
-earth_magnetic_field(protects_from_solar_wind, [2024, 6, 8, 170538]).
-chemical_symbol(carbon_dioxide, co2, [2024, 6, 8, 170538]).
-primary_language_spoken_in(philippines, filipino, [2024, 6, 8, 170538]).
-skin_area(human_body, 2, [2024, 6, 8, 170538]).
-largest_living_structure(great_barrier_reef, [2024, 6, 8, 170538]).
-nitrogen_percentage(earth_atmosphere, 78, [2024, 6, 8, 170538]).
-chemical_symbol(helium, he, [2024, 6, 8, 170538]).
-primary_language_spoken_in(bangladesh, bengali, [2024, 6, 8, 170538]).
-blood_volume(human_body, 12, [2024, 6, 8, 170538]).
-unesco_world_heritage_site(great_wall_of_china, [2024, 6, 8, 170538]).
-ocean_water_percentage(965, [2024, 6, 8, 170538]).
-chemical_symbol(oxygen, o, [2024, 6, 8, 170538]).
-primary_language_spoken_in(pakistan, urdu, [2024, 6, 8, 170538]).
-number_of_skeletal_muscles(human_body, 650, [2024, 6, 8, 170538]).
-largest_hot_desert(sahara_desert, [2024, 6, 8, 170538]).
-earth_circumference_in_miles(24901, [2024, 6, 8, 170538]).
-chemical_symbol(iron, fe, [2024, 6, 8, 170538]).
-primary_language_spoken_in(nigeria, english, [2024, 6, 8, 170538]).
-number_of_joints(human_body, 300, [2024, 6, 8, 170538]).
-sahara_desert_expansion(southward, [2024, 6, 8, 170538]).
-earth_highest_point(mount_everest, [2024, 6, 8, 170538]).
-chemical_symbol(silver, ag, [2024, 6, 8, 170538]).
-primary_language_spoken_in(germany, german, [2024, 6, 8, 170538]).
-skin_area_sqft(human_body, 20, [2024, 6, 8, 170538]).
-sahara_desert_size(about_the_size_of_united_states, [2024, 6, 8, 170538]).
-earth_lowest_point(mariana_trench, [2024, 6, 8, 170538]).
-chemical_symbol(hydrogen, h, [2024, 6, 8, 170538]).
-primary_language_spoken_in(france, french, [2024, 6, 8, 170538]).
-blood_vessel_length(human_body, 1000, [2024, 6, 8, 170538]).
-sahara_desert_history(ancient_civilizations, [2024, 6, 8, 170538]).
-number_of_elements_in_earth_crust(90, [2024, 6, 8, 170538]).
-chemical_symbol(potassium, k, [2024, 6, 8, 170538]).
-primary_language_spoken_in(italy, italian, [2024, 6, 8, 170538]).
-number_of_cells(human_body, 37000000000000, [2024, 6, 8, 170538]).
-photosynthesis_process([carbon_dioxide, water, sunlight], [glucose, oxygen], [chlorophyll], [2024, 6, 8, 170538]).
-earth_climate_influences([solar_radiation, atmospheric_gases, ocean_currents, planets_tilt_and_orbit], [2024, 6, 8, 170538]).
-human_immune_system([cells, tissues, organs], [viruses, bacteria], [2024, 6, 8, 170538]).
-rainbow_formation([sunlight, water_droplets], [refracted, reflected, dispersed], [2024, 6, 8, 170538]).
-plate_tectonics([earths_lithosphere], [continents, earthquakes, volcanic_activity], [2024, 6, 8, 170538]).
-mitosis_process([cells_nucleus, chromosomes], [genetically_identical_daughter_cells], [2024, 6, 8, 170538]).
-entropy_concept([thermodynamics], [disorder, increased_randomness], [2024, 6, 8, 170538]).
+height_in_meters(eiffel_tower, 324, [2024, 6, 9, 130800]).
+length_of_miles(great_wall_of_china, 13000, [2024, 6, 9, 130800]).
+food_characteristic(honey, [never_spoils, stored_indefinitely], [2024, 6, 9, 130800]).
+largest(ocean, pacific_ocean, [2024, 6, 9, 130800]).
+berry(banana, [2024, 6, 9, 130800]).
+not_berry(strawberry, [2024, 6, 9, 130800]).
+number_of_bones(human, 206, [2024, 6, 9, 130800]).
+highest(mountain, mount_everest, [2024, 6, 9, 130800]).
+leap_year_frequency(4, [2024, 6, 9, 130800]).
+second_longest(river, amazon_river, [2024, 6, 9, 130800]).
+largest_land_animal(elephant, [2024, 6, 9, 130800]).
+capital_of(japan, tokyo, [2024, 6, 9, 130800]).
+speed_of_kmps(light, 299792, [2024, 6, 9, 130800]).
+dna_similarity_percent(human, chimpanzee, 98, [2024, 6, 9, 130800]).
+orbital_period_days(moon, earth, 273, [2024, 6, 9, 130800]).
+country(australia, [2024, 6, 9, 130800]).
+continent(australia, [2024, 6, 9, 130800]).
+longest(river, missouri_river, [2024, 6, 9, 130800]).
+revolution_period_days(earth, sun, 36525, [2024, 6, 9, 130800]).
+painted_by(mona_lisa, leonardo_da_vinci, [2024, 6, 9, 130800]).
+size_of(blue_whale, heart, small_car, [2024, 6, 9, 130800]).
+gift_from_to(statue_of_liberty, france, united_states, [2024, 6, 9, 130800]).
+oldest(seven_wonders_of_ancient_world, great_pyramid_of_giza, [2024, 6, 9, 130800]).
+freezing_point_celsius(water, 0, [2024, 6, 9, 130800]).
+chemical_symbol(gold, au, [2024, 6, 9, 130800]).
+capital_of(canada, ottawa, [2024, 6, 9, 130800]).
+animal_characteristic(dolphin, [highly_intelligent, marine_mammal], [2024, 6, 9, 130800]).
+first_manned_moon_landing(1969, [2024, 6, 9, 130800]).
+largest(desert, sahara_desert, [2024, 6, 9, 130800]).
+currency_of(japan, yen, [2024, 6, 9, 130800]).
+weight_of_pounds(human_brain, 3, [2024, 6, 9, 130800]).
+referred_to_as(amazon_rainforest, lungs_of_earth, [2024, 6, 9, 130800]).
+largest(coral_reef_system, great_barrier_reef, [2024, 6, 9, 130800]).
+chemical_symbol(oxygen, o, [2024, 6, 9, 130800]).
+currency_of(united_kingdom, pound_sterling, [2024, 6, 9, 130800]).
+tallest(building, burj_khalifa, [2024, 6, 9, 130800]).
+flightless_bird(penguin, [2024, 6, 9, 130800]).
+scientific_name(human, homo_sapiens, [2024, 6, 9, 130800]).
+capital_of(brazil, brasilia, [2024, 6, 9, 130800]).
+longest(bone, femur, [2024, 6, 9, 130800]).
+second_largest(ocean, atlantic_ocean, [2024, 6, 9, 130800]).
+smallest(country, vatican_city, [2024, 6, 9, 130800]).
+primary_language_spoken(argentina, spanish, [2024, 6, 9, 130800]).
+body_composition_percent(human, water, 60, [2024, 6, 9, 130800]).
+number_of_continents(earth, 7, [2024, 6, 9, 130800]).
+currency_of(australia, australian_dollar, [2024, 6, 9, 130800]).
+first_artificial_satellite(sputnik, soviet_union, [2024, 6, 9, 130800]).
+oxygen_production_percent(amazon_rainforest, 20, [2024, 6, 9, 130800]).
+color_distinction(human_eye, 10000000, [2024, 6, 9, 130800]).
+located_in(eiffel_tower, paris_france, [2024, 6, 9, 130800]).
+capital_of(italy, rome, [2024, 6, 9, 130800]).
+longest(river, nile_river, [2024, 6, 9, 130800]).
+currency(india, indian_rupee, [2024, 6, 9, 130850]).
+chemical_symbol(iron, fe, [2024, 6, 9, 130850]).
+atmosphere_composition(earth, nitrogen, [2024, 6, 9, 130850]).
+primary_language(egypt, arabic, [2024, 6, 9, 130850]).
+area_covered_in_sq_miles(pacific_ocean, 60000000, [2024, 6, 9, 130850]).
+capital(russia, moscow, [2024, 6, 9, 130850]).
+deepest_part(worlds_oceans, mariana_trench, [2024, 6, 9, 130850]).
+chemical_symbol(helium, he, [2024, 6, 9, 130850]).
+construction_time(great_wall_of_china, centuries, [2024, 6, 9, 130850]).
+capital(south_africa, pretoria, [2024, 6, 9, 130850]).
+smallest_planet(solar_system, mercury, [2024, 6, 9, 130850]).
+largest_planet(solar_system, jupiter, [2024, 6, 9, 130850]).
+capital(france, paris, [2024, 6, 9, 130850]).
+core_composition(earth, [iron, nickel], [2024, 6, 9, 130850]).
+chemical_symbol(sodium, na, [2024, 6, 9, 130850]).
+senses(human_body, [sight, hearing, taste, smell, touch], [2024, 6, 9, 130850]).
+capital(germany, berlin, [2024, 6, 9, 130850]).
+species_percentage(amazon_rainforest, 10, [2024, 6, 9, 130850]).
+primary_language(brazil, portuguese, [2024, 6, 9, 130850]).
+currency(china, yuan, [2024, 6, 9, 130850]).
+cause(earth_rotation, day_and_night, [2024, 6, 9, 130850]).
+capital(mexico, mexico_city, [2024, 6, 9, 130850]).
+primary_gas(earth_atmosphere, nitrogen, [2024, 6, 9, 130850]).
+chemical_symbol(carbon, c, [2024, 6, 9, 130850]).
+largest_island(world, greenland, [2024, 6, 9, 130850]).
+capital(spain, madrid, [2024, 6, 9, 130850]).
+keeps_in_orbit(earth_gravitational_pull, moon, [2024, 6, 9, 130850]).
+chemical_symbol(hydrogen, h, [2024, 6, 9, 130850]).
+flows_through_countries(amazon_river, 9, [2024, 6, 9, 130850]).
+capital(kenya, nairobi, [2024, 6, 9, 130850]).
+heartbeats_per_day(human, 100000, [2024, 6, 9, 130850]).
+surface_water_percentage(earth, 71, [2024, 6, 9, 130850]).
+chemical_symbol(calcium, ca, [2024, 6, 9, 130850]).
+largest_ocean(earth, pacific_ocean, [2024, 6, 9, 130850]).
+capital(argentina, buenos_aires, [2024, 6, 9, 130850]).
+primary_language(canada, english, [2024, 6, 9, 130850]).
+currency(switzerland, swiss_franc, [2024, 6, 9, 130850]).
+area_covered_in_sq_km(amazon_rainforest, 5500000, [2024, 6, 9, 130850]).
+capital(australia, canberra, [2024, 6, 9, 130850]).
+protects_from(earth_atmosphere, harmful_solar_radiation, [2024, 6, 9, 130850]).
+chemical_symbol(chlorine, cl, [2024, 6, 9, 130850]).
+capital(egypt, cairo, [2024, 6, 9, 130850]).
+largest_mammal(earth, blue_whale, [2024, 6, 9, 130850]).
+primary_language(france, french, [2024, 6, 9, 130850]).
+currency(brazil, brazilian_real, [2024, 6, 9, 130850]).
+largest_drainage_basin(world, amazon_river_basin, [2024, 6, 9, 130850]).
+capital(india, new_delhi, [2024, 6, 9, 130850]).
+generated_by(earth_magnetic_field, molten_outer_core, [2024, 6, 9, 130850]).
+chemical_symbol(potassium, k, [2024, 6, 9, 130850]).
+capital(japan, tokyo, [2024, 6, 9, 130850]).
+number_of_trees(amazon_rainforest, 400000000000, [2024, 6, 9, 130936]).
+time_period_years(sharks, 400000000, [2024, 6, 9, 130936]).
+number_of_teeth(human, 32, [2024, 6, 9, 130936]).
+surface_coverage_percent(atlantic_ocean, earth, 20, [2024, 6, 9, 130936]).
+speed_meters_per_second(sound, air, 343, [2024, 6, 9, 130936]).
+capital_of(australia, canberra, [2024, 6, 9, 130936]).
+completion_year(eiffel_tower, 1889, [2024, 6, 9, 130936]).
+chemical_symbol(silver, ag, [2024, 6, 9, 130936]).
+number_of_countries_flown_through(nile_river, 11, [2024, 6, 9, 130936]).
+number_of_neurons(human_brain, 86000000000, [2024, 6, 9, 130936]).
+capital_of(china, beijing, [2024, 6, 9, 130936]).
+divided_into(earth_crust, tectonic_plates, [2024, 6, 9, 130936]).
+chemical_symbol(gold, au, [2024, 6, 9, 130936]).
+visible_from_space(great_barrier_reef, [2024, 6, 9, 130936]).
+larger_than(pacific_ocean, all_landmasses, [2024, 6, 9, 130936]).
+number_of_chambers(human_heart, 4, [2024, 6, 9, 130936]).
+capital_of(united_states, washington_dc, [2024, 6, 9, 130936]).
+oxygen_production_percent(amazon_rainforest, 20, [2024, 6, 9, 130936]).
+size_fraction(moon, earth, '1/6', [2024, 6, 9, 130936]).
+primary_language(india, hindi, [2024, 6, 9, 130936]).
+currency(united_states, dollar, [2024, 6, 9, 130936]).
+longest_river(nile_river, [2024, 6, 9, 130936]).
+atmospheric_composition(earth, [nitrogen-78, oxygen-21], [2024, 6, 9, 130936]).
+time_period_years(great_wall_of_china, 2000, [2024, 6, 9, 130936]).
+tallest_mountain(mount_everest, [2024, 6, 9, 130936]).
+chemical_symbol(water, h2o, [2024, 6, 9, 130936]).
+causes(earth_rotation, day_and_night, [2024, 6, 9, 130936]).
+capital_of(united_kingdom, london, [2024, 6, 9, 130936]).
+number_of_countries_flown_through(amazon_river, 9, [2024, 6, 9, 130936]).
+primary_language(japan, japanese, [2024, 6, 9, 130936]).
+currency(european_union, euro, [2024, 6, 9, 130936]).
+largest_desert(antarctic_desert, [2024, 6, 9, 130936]).
+core_composition(earth, [iron, nickel], [2024, 6, 9, 130936]).
+chemical_symbol(salt, nacl, [2024, 6, 9, 130936]).
+largest_ocean(pacific_ocean, [2024, 6, 9, 130936]).
+capital_of(france, paris, [2024, 6, 9, 130936]).
+body_composition_percent(human, water, 60, [2024, 6, 9, 130936]).
+largest_tropical_rainforest(amazon_rainforest, [2024, 6, 9, 130936]).
+orbital_period_days(moon, earth, 273, [2024, 6, 9, 130936]).
+length_miles(great_wall_of_china, 13000, [2024, 6, 9, 130936]).
+chemical_symbol(oxygen, o, [2024, 6, 9, 130936]).
+area_covered_sq_miles(pacific_ocean, 60000000, [2024, 6, 9, 130936]).
+capital_of(russia, moscow, [2024, 6, 9, 130936]).
+protects_from(earth_atmosphere, life, harmful_solar_radiation, [2024, 6, 9, 130936]).
+currency(japan, yen, [2024, 6, 9, 130936]).
+tallest_building(burj_khalifa, dubai, [2024, 6, 9, 130936]).
+keeps_in_orbit(earth_gravitational_pull, moon, earth, [2024, 6, 9, 130936]).
+primary_language(brazil, portuguese, [2024, 6, 9, 130936]).
+currency(united_kingdom, pound_sterling, [2024, 6, 9, 130936]).
+area_covered_sq_kilometers(amazon_rainforest, 5500000, [2024, 6, 9, 130936]).
+largest_coral_reef_system(great_barrier_reef, world, [2024, 6, 9, 131025]).
+chemical_symbol(helium, he, [2024, 6, 9, 131025]).
+weight_pounds(human_brain, 3, [2024, 6, 9, 131025]).
+second_longest_river(amazon_river, world, [2024, 6, 9, 131025]).
+surface_coverage_percent(earth, water, 71, [2024, 6, 9, 131025]).
+capital_of(germany, berlin, [2024, 6, 9, 131025]).
+chemical_symbol(hydrogen, h, [2024, 6, 9, 131025]).
+primary_language_spoken(egypt, arabic, [2024, 6, 9, 131025]).
+as_hot_as(earth_core, surface_of_sun, [2024, 6, 9, 131025]).
+largest_island(greenland, world, [2024, 6, 9, 131025]).
+capital_of(italy, rome, [2024, 6, 9, 131025]).
+home_to_species_percent(amazon_rainforest, 10, [2024, 6, 9, 131025]).
+primarily_composed_of(earth_atmosphere, nitrogen, [2024, 6, 9, 131025]).
+primary_language_spoken(canada, english, [2024, 6, 9, 131025]).
+currency(china, yuan, [2024, 6, 9, 131025]).
+human_body_senses([sight, hearing, taste, smell, touch], [2024, 6, 9, 131025]).
+chemical_symbol(carbon, c, [2024, 6, 9, 131025]).
+capital_of(brazil, brasília, [2024, 6, 9, 131025]).
+oxygen_produced_percent(amazon_rainforest, 20, [2024, 6, 9, 131025]).
+number_of_continents(earth, 7, [2024, 6, 9, 131025]).
+primary_language_spoken(argentina, spanish, [2024, 6, 9, 131025]).
+chemical_symbol(iron, fe, [2024, 6, 9, 131025]).
+largest_ocean(pacific_ocean, earth, [2024, 6, 9, 131025]).
+capital_of(south_africa, pretoria, [2024, 6, 9, 131025]).
+number_of_neurons(human_brain, 86000000000, [2024, 6, 9, 131025]).
+chemical_symbol(sodium, na, [2024, 6, 9, 131025]).
+atmospheric_composition(earth, [nitrogen, 78, oxygen, 21], [2024, 6, 9, 131025]).
+capital_of(mexico, mexico_city, [2024, 6, 9, 131025]).
+number_of_countries_flown_through(amazon_river, 9, [2024, 6, 9, 131025]).
+primary_language_spoken(france, french, [2024, 6, 9, 131025]).
+currency(australia, australian_dollar, [2024, 6, 9, 131025]).
+causes(earth_rotation, day_and_night, [2024, 6, 9, 131025]).
+tallest(mountain, mount_everest, earth, [2024, 6, 9, 131025]).
+chemical_symbol(water, h2o, [2024, 6, 9, 131025]).
+length_miles(great_wall_of_china, 13000, [2024, 6, 9, 131025]).
+capital_of(japan, tokyo, [2024, 6, 9, 131025]).
+number_of_bones(human_body, 206, [2024, 6, 9, 131025]).
+largest_tropical_rainforest(amazon_rainforest, world, [2024, 6, 9, 131025]).
+orbital_period_days(moon, earth, 273, [2024, 6, 9, 131025]).
+primary_language_spoken(india, hindi, [2024, 6, 9, 131025]).
+currency(united_states, dollar, [2024, 6, 9, 131025]).
+longest_river(nile_river, world, [2024, 6, 9, 131025]).
+primarily_composed_of(earth_atmosphere, nitrogen, [2024, 6, 9, 131025]).
+construction_time(great_wall_of_china, several_centuries, [2024, 6, 9, 131025]).
+tallest(building, burj_khalifa, world, [2024, 6, 9, 131025]).
+chemical_symbol(helium, he, [2024, 6, 9, 131025]).
+weight_pounds(human_brain, 3, [2024, 6, 9, 131025]).
+second_longest_river(amazon_river, world, [2024, 6, 9, 131025]).
+surface_coverage_percent(earth, water, 71, [2024, 6, 9, 131025]).
+capital_of(germany, berlin, [2024, 6, 9, 131025]).
+chemical_symbol(hydrogen, h, [2024, 6, 9, 131112]).
+primary_language(egypt, arabic, [2024, 6, 9, 131112]).
+core_composition(earth, [iron, nickel], [2024, 6, 9, 131112]).
+largest_island(greenland, [2024, 6, 9, 131112]).
+capital(italy, rome, [2024, 6, 9, 131112]).
+species_percentage(amazon_rainforest, 10, [2024, 6, 9, 131112]).
+primary_atmosphere(earth, nitrogen, [2024, 6, 9, 131112]).
+primary_language(canada, english, [2024, 6, 9, 131112]).
+currency(china, yuan, [2024, 6, 9, 131112]).
+human_senses([sight, hearing, taste, smell, touch], [2024, 6, 9, 131112]).
+chemical_symbol(carbon, c, [2024, 6, 9, 131112]).
+capital(brazil, brasília, [2024, 6, 9, 131112]).
+oxygen_production(amazon_rainforest, 20, [2024, 6, 9, 131112]).
+number_of_continents(earth, 7, [2024, 6, 9, 131112]).
+primary_language(argentina, spanish, [2024, 6, 9, 131112]).
+chemical_symbol(iron, fe, [2024, 6, 9, 131112]).
+largest_ocean(pacific_ocean, [2024, 6, 9, 131112]).
+capital(south_africa, pretoria, [2024, 6, 9, 131112]).
+number_of_neurons(human_brain, 86000000000, [2024, 6, 9, 131112]).
+chemical_symbol(sodium, na, [2024, 6, 9, 131112]).
+atmosphere_composition(earth, [nitrogen, 78, oxygen, 21], [2024, 6, 9, 131112]).
+capital(mexico, mexico_city, [2024, 6, 9, 131112]).
+amazon_river_flow(9, [2024, 6, 9, 131112]).
+primary_language(france, french, [2024, 6, 9, 131112]).
+currency(australia, australian_dollar, [2024, 6, 9, 131112]).
+earth_rotation(day_night, [2024, 6, 9, 131112]).
+tallest_mountain(mount_everest, [2024, 6, 9, 131112]).
+chemical_symbol(water, h2o, [2024, 6, 9, 131112]).
+great_wall_length(13000, [2024, 6, 9, 131112]).
+capital(japan, tokyo, [2024, 6, 9, 131112]).
+number_of_bones(human, 206, [2024, 6, 9, 131112]).
+largest_tropical_rainforest(amazon_rainforest, [2024, 6, 9, 131112]).
+moon_orbit(273, [2024, 6, 9, 131112]).
+primary_language(india, hindi, [2024, 6, 9, 131112]).
+currency(united_states, dollar, [2024, 6, 9, 131112]).
+longest_river(nile_river, [2024, 6, 9, 131112]).
+primary_atmosphere(earth, nitrogen, [2024, 6, 9, 131112]).
+great_wall_construction(centuries, [2024, 6, 9, 131112]).
+tallest_building(burj_khalifa, [2024, 6, 9, 131112]).
+chemical_symbol(helium, he, [2024, 6, 9, 131112]).
+human_brain_weight(3, [2024, 6, 9, 131112]).
+second_longest_river(amazon_river, [2024, 6, 9, 131112]).
+earth_surface_water(71, [2024, 6, 9, 131112]).
+capital(germany, berlin, [2024, 6, 9, 131112]).
+chemical_symbol(hydrogen, h, [2024, 6, 9, 131112]).
+primary_language(egypt, arabic, [2024, 6, 9, 131112]).
+core_composition(earth, [iron, nickel], [2024, 6, 9, 131112]).
+largest_island(greenland, [2024, 6, 9, 131112]).
+capital(italy, rome, [2024, 6, 9, 131112]).
+species_percentage(amazon_rainforest, 10, [2024, 6, 9, 131112]).
+primary_component(earths_atomosphere, nitrogen, [2024, 6, 9, 131158]).
+primary_language(canada, english, [2024, 6, 9, 131158]).
+currency(china, yuan, [2024, 6, 9, 131158]).
+number_of_senses(human_body, 5, [2024, 6, 9, 131158]).
+senses(human_body, [sight, hearing, taste, smell, touch], [2024, 6, 9, 131158]).
+chemical_symbol(carbon, c, [2024, 6, 9, 131158]).
+capital(brazil, brasilia, [2024, 6, 9, 131158]).
+oxygen_produced(amazon_rainforest, 20, [2024, 6, 9, 131158]).
+number_of_continents(earth, 7, [2024, 6, 9, 131158]).
+primary_language(argentina, spanish, [2024, 6, 9, 131158]).
+chemical_symbol(iron, fe, [2024, 6, 9, 131158]).
+largest_ocean(earths_oceans, pacific_ocean, [2024, 6, 9, 131158]).
+capital(south_africa, pretoria, [2024, 6, 9, 131158]).
+number_of_neurons(human_brain, 86000000000, [2024, 6, 9, 131158]).
+chemical_symbol(sodium, na, [2024, 6, 9, 131158]).
+atmospheric_composition(earths_atmosphere, [nitrogen, 78, oxygen, 21], [2024, 6, 9, 131158]).
+capital(mexico, mexico_city, [2024, 6, 9, 131158]).
+number_of_countries_flown(amazon_river, 9, [2024, 6, 9, 131158]).
+primary_language(france, french, [2024, 6, 9, 131158]).
+currency(australia, australian_dollar, [2024, 6, 9, 131158]).
+cause_of(earths_roation, [day, night], [2024, 6, 9, 131158]).
+tallest(earths_mountains, mount_everest, [2024, 6, 9, 131158]).
+chemical_symbol(water, h2o, [2024, 6, 9, 131158]).
+length_of_miles(great_wall_of_china, 13000, [2024, 6, 9, 131158]).
+capital(japan, tokyo, [2024, 6, 9, 131158]).
+number_of_bones(human_body, 206, [2024, 6, 9, 131158]).
+largest(tropical_rainforests, amazon_rainforest, [2024, 6, 9, 131158]).
+orbital_period_days(moon, earth, 273, [2024, 6, 9, 131158]).
+primary_language(india, hindi, [2024, 6, 9, 131158]).
+currency(united_states, dollar, [2024, 6, 9, 131158]).
+longest(worlds_rivers, nile_river, [2024, 6, 9, 131158]).
+primary_component(earths_atomosphere, nitrogen, [2024, 6, 9, 131158]).
+construction_time(great_wall_of_china, centuries, [2024, 6, 9, 131158]).
+tallest(building, burj_khalifa, [2024, 6, 9, 131158]).
+location(burj_khalifa, dubai, [2024, 6, 9, 131158]).
+chemical_symbol(helium, he, [2024, 6, 9, 131158]).
+weight_of_pounds(human_brain, 3, [2024, 6, 9, 131158]).
+second_longest(worlds_rivers, amazon_river, [2024, 6, 9, 131158]).
+surface_water_percentage(earth, 71, [2024, 6, 9, 131158]).
+capital(germany, berlin, [2024, 6, 9, 131158]).
+chemical_symbol(hydrogen, h, [2024, 6, 9, 131158]).
+primary_language(egypt, arabic, [2024, 6, 9, 131158]).
+primary_composition(earths_core, [iron, nickel], [2024, 6, 9, 131158]).
+largest(island, greenland, [2024, 6, 9, 131158]).
+capital(italy, rome, [2024, 6, 9, 131158]).
+species_percentage(amazon_rainforest, 10, [2024, 6, 9, 131158]).
+primary_component(earths_atomosphere, nitrogen, [2024, 6, 9, 131158]).
+primary_language(canada, english, [2024, 6, 9, 131158]).
+currency(china, yuan, [2024, 6, 9, 131158]).
+number_of_senses(human_body, 5, [2024, 6, 9, 131158]).
+senses(human_body, [sight, hearing, taste, smell, touch], [2024, 6, 9, 131158]).
+chemical_symbol(carbon, c, [2024, 6, 9, 131158]).
+capital(brazil, brasilia, [2024, 6, 9, 131158]).
+smallest_bone(human_body, stapes, ear, [2024, 6, 9, 131248]).
+capital_of(spain, madrid, [2024, 6, 9, 131248]).
+number_of_hearts(octopus, 3, [2024, 6, 9, 131248]).
+chemical_symbol(lead, pb, [2024, 6, 9, 131248]).
+deepest_part_of_ocean(challenger_deep, mariana_trench, [2024, 6, 9, 131248]).
+primary_language_spoken_in(russia, russian, [2024, 6, 9, 131248]).
+hotter_than(lightning_bolt, surface_of_the_sun, [2024, 6, 9, 131248]).
+currency_of(south_korea, korean_won, [2024, 6, 9, 131248]).
+number_of_muscles(human_body, 600, [2024, 6, 9, 131248]).
+gift_from(statue_of_liberty, france, united_states, [2024, 6, 9, 131248]).
+group_called(flamingo, flamboyance, [2024, 6, 9, 131248]).
+capital_of(sweden, stockholm, [2024, 6, 9, 131248]).
+chemical_symbol(silver, ag, [2024, 6, 9, 131248]).
+distinguishable_colors_human_eye(10000000, [2024, 6, 9, 131248]).
+number_of_sides(great_pyramid_of_giza, 4, [2024, 6, 9, 131248]).
+primary_language_spoken_in(germany, german, [2024, 6, 9, 131248]).
+daily_sun_events(international_space_station, astronaut, 16, 16, [2024, 6, 9, 131248]).
+currency_of(switzerland, swiss_franc, [2024, 6, 9, 131248]).
+monthly_expansion_km(sahara_desert, 08, [2024, 6, 9, 131248]).
+iron_amount_human_body(nail, 3, inches, [2024, 6, 9, 131248]).
+primary_language_spoken_in(south_korea, korean, [2024, 6, 9, 131248]).
+chemical_symbol(tin, sn, [2024, 6, 9, 131248]).
+most_of(airport, world, united_states, [2024, 6, 9, 131248]).
+voltage(lightning_bolt, 3000000, [2024, 6, 9, 131248]).
+capital_of(china, beijing, [2024, 6, 9, 131248]).
+time_on_earth_millions_years(jellyfish, 500, [2024, 6, 9, 131248]).
+chemical_symbol(aluminum, al, [2024, 6, 9, 131248]).
+daily_gastric_juice_production_liters(human_stomach, 2, [2024, 6, 9, 131248]).
+primary_language_spoken_in(italy, italian, [2024, 6, 9, 131248]).
+speed_mph(lightning_bolt, 220000, [2024, 6, 9, 131248]).
+currency_of(canada, canadian_dollar, [2024, 6, 9, 131248]).
+number_of_layers(earth_atmosphere, 5, [2024, 6, 9, 131248]).
+primary_language_spoken_in(australia, english, [2024, 6, 9, 131248]).
+chemical_symbol(mercury, hg, [2024, 6, 9, 131248]).
+carbon_amount_human_body(pencil, 900, [2024, 6, 9, 131248]).
+also_known_as(northern_lights, aurora_borealis, [2024, 6, 9, 131248]).
+capital_of(south_korea, seoul, [2024, 6, 9, 131248]).
+chemical_symbol(titanium, ti, [2024, 6, 9, 131248]).
+power_consumption_watts(human_brain, 12, 25, [2024, 6, 9, 131248]).
+not_visible_from_space(great_wall_of_china, naked_eye, [2024, 6, 9, 131248]).
+primary_language_spoken_in(spain, spanish, [2024, 6, 9, 131248]).
+heating_power_celsius(lightning_bolt, air, 30000, [2024, 6, 9, 131248]).
+currency_of(mexico, mexican_peso, [2024, 6, 9, 131248]).
+largest(earth, volcano, mauna_loa, hawaii, [2024, 6, 9, 131248]).
+primary_language_spoken_in(turkey, turkish, [2024, 6, 9, 131248]).
+chemical_symbol(nickel, ni, [2024, 6, 9, 131248]).
+survival_time(human_body, weeks, food, days, water, [2024, 6, 9, 131248]).
+tallest(tree, world, redwood, hyperion, [2024, 6, 9, 131248]).
+capital_of(argentina, buenos_aires, [2024, 6, 9, 131248]).
+chemical_symbol(zinc, zn, [2024, 6, 9, 131248]).
+daily_saliva_production_liters(human, 1, 2, [2024, 6, 9, 131337]).
+primary_language(greece, greek, [2024, 6, 9, 131337]).
+currency(japan, yen, [2024, 6, 9, 131337]).
+max_speed_mph(lightning, 130000, [2024, 6, 9, 131337]).
+largest_desert(earth, antarctica, [2024, 6, 9, 131337]).
+primary_language(thailand, thai, [2024, 6, 9, 131337]).
+chemical_symbol(silicon, si, [2024, 6, 9, 131337]).
+blood_volume_liters(human, 5, [2024, 6, 9, 131337]).
+coldest_temperature_fahrenheit(earth, -1286, [2024, 6, 9, 131337]).
+coldest_temperature_celsius(earth, -892, [2024, 6, 9, 131337]).
+location_of_coldest_temperature(earth, antarctica, [2024, 6, 9, 131337]).
+capital(canada, ottawa, [2024, 6, 9, 131337]).
+chemical_symbol(potassium, k, [2024, 6, 9, 131337]).
+number_of_cell_types(human, 200, [2024, 6, 9, 131337]).
+smallest_country(africa, seychelles, [2024, 6, 9, 131337]).
+primary_language(switzerland, swiss_german, [2024, 6, 9, 131337]).
+chemical_symbol(copper, cu, [2024, 6, 9, 131337]).
+blood_volume_gallons(human, 12, 15, [2024, 6, 9, 131337]).
+number_of_species(amazon_rainforest, 10000000, [2024, 6, 9, 131337]).
+coldest_temperature_fahrenheit(united_states, -80, [2024, 6, 9, 131337]).
+coldest_temperature_celsius(united_states, -62, [2024, 6, 9, 131337]).
+location_of_coldest_temperature(united_states, alaska, [2024, 6, 9, 131337]).
+capital(peru, lima, [2024, 6, 9, 131337]).
+chemical_symbol(sulfur, s, [2024, 6, 9, 131337]).
+number_of_cells(human, 30000000000000, [2024, 6, 9, 131337]).
+deepest_lake(world, lake_baikal, [2024, 6, 9, 131337]).
+location_of_deepest_lake(world, russia, [2024, 6, 9, 131337]).
+primary_language(indonesia, indonesian, [2024, 6, 9, 131337]).
+chemical_symbol(phosphorus, p, [2024, 6, 9, 131337]).
+number_of_bacteria(human, 100000000000000, [2024, 6, 9, 131337]).
+same_size_as(sahara_desert, united_states, [2024, 6, 9, 131337]).
+primary_language(netherlands, dutch, [2024, 6, 9, 131337]).
+chemical_symbol(nitrogen, n, [2024, 6, 9, 131337]).
+number_of_cells(human, 37000000000000, [2024, 6, 9, 131337]).
+currency(russia, russian_ruble, [2024, 6, 9, 131337]).
+longest_mountain_range(earth, andes, [2024, 6, 9, 131337]).
+primary_language(nigeria, english, [2024, 6, 9, 131337]).
+chemical_symbol(calcium, ca, [2024, 6, 9, 131337]).
+number_of_neurons(human, 86000000000, [2024, 6, 9, 131337]).
+capital(south_africa, cape_town, [2024, 6, 9, 131337]).
+chemical_symbol(iodine, i, [2024, 6, 9, 131337]).
+bacterial_cell_ratio(human, 10, [2024, 6, 9, 131337]).
+deepest_part_of_ocean(pacific, mariana_trench, [2024, 6, 9, 131337]).
+primary_language(poland, polish, [2024, 6, 9, 131337]).
+chemical_symbol(magnesium, mg, [2024, 6, 9, 131337]).
+number_of_sweat_glands(human, 2000000, 5000000, [2024, 6, 9, 131337]).
+past_state(sahara_desert, [lush, green], [2024, 6, 9, 131337]).
+primary_language(ukraine, ukrainian, [2024, 6, 9, 131337]).
+chemical_symbol(fluorine, f, [2024, 6, 9, 131337]).
+number_of_bones(human, 206, [2024, 6, 9, 131337]).
+coldest_temperature_fahrenheit(asia, -90, [2024, 6, 9, 131337]).
+coldest_temperature_celsius(asia, -68, [2024, 6, 9, 131337]).
+location_of_coldest_temperature(asia, russia, [2024, 6, 9, 131337]).
+capital(australia, sydney, [2024, 6, 9, 131337]).
+chemical_symbol(neon, ne, [2024, 6, 9, 131337]).
+number_of_skeletal_muscles(human, 640, [2024, 6, 9, 131337]).
+largest_desert(asia, arabian_desert, [2024, 6, 9, 131337]).
+primary_language(saudi_arabia, arabic, [2024, 6, 9, 131430]).
+chemical_symbol(phosphorus, p, [2024, 6, 9, 131430]).
+area_of_skin_square_feet(human, 20, [2024, 6, 9, 131430]).
+deepest_part(atlantic_ocean, puerto_rico_trench, [2024, 6, 9, 131430]).
+primary_language(argentina, spanish, [2024, 6, 9, 131430]).
+chemical_symbol(nitrogen, n, [2024, 6, 9, 131430]).
+blood_volume_liters(human, [4, 5], [2024, 6, 9, 131430]).
+number_of_species(amazon_rainforest, 10000000, [plant, animal, insect], [2024, 6, 9, 131430]).
+primary_language(brazil, portuguese, [2024, 6, 9, 131430]).
+chemical_symbol(sulfur, s, [2024, 6, 9, 131430]).
+number_of_cell_types(human, 200, [2024, 6, 9, 131430]).
+same_size_as(sahara_desert, united_states, [2024, 6, 9, 131430]).
+primary_language(netherlands, dutch, [2024, 6, 9, 131430]).
+chemical_symbol(nitrogen, n, [2024, 6, 9, 131430]).
+number_of_cells(human, 37000000000000, [2024, 6, 9, 131430]).
+currency(russia, russian_ruble, [2024, 6, 9, 131430]).
+longest_mountain_range(earth, andes, [2024, 6, 9, 131430]).
+primary_language(nigeria, english, [2024, 6, 9, 131430]).
+chemical_symbol(calcium, ca, [2024, 6, 9, 131430]).
+number_of_neurons(human, 86000000000, [2024, 6, 9, 131430]).
+capital(south_africa, cape_town, [2024, 6, 9, 131430]).
+chemical_symbol(iodine, i, [2024, 6, 9, 131430]).
+bacterial_cells_ratio(human, 10, [2024, 6, 9, 131430]).
+deepest_part(pacific_ocean, mariana_trench, [2024, 6, 9, 131430]).
+primary_language(poland, polish, [2024, 6, 9, 131430]).
+chemical_symbol(magnesium, mg, [2024, 6, 9, 131430]).
+number_of_sweat_glands(human, [2000000, 5000000], [2024, 6, 9, 131430]).
+past_state(sahara_desert, [lush, green], [2024, 6, 9, 131430]).
+primary_language(ukraine, ukrainian, [2024, 6, 9, 131430]).
+chemical_symbol(fluorine, f, [2024, 6, 9, 131430]).
+number_of_bones(human, 206, [2024, 6, 9, 131430]).
+coldest_temperature_fahrenheit(asia, -90, russia, [2024, 6, 9, 131430]).
+coldest_temperature_celsius(asia, -68, russia, [2024, 6, 9, 131430]).
+capital(australia, sydney, [2024, 6, 9, 131430]).
+chemical_symbol(neon, ne, [2024, 6, 9, 131430]).
+number_of_skeletal_muscles(human, 640, [2024, 6, 9, 131430]).
+largest_desert(asia, arabian_desert, [2024, 6, 9, 131430]).
+primary_language(saudi_arabia, arabic, [2024, 6, 9, 131430]).
+chemical_symbol(phosphorus, p, [2024, 6, 9, 131430]).
+visible_from_space(great_barrier_reef, [2024, 6, 9, 131430]).
+number_of_shades_distinguishable(human_eye, gray, 500, [2024, 6, 9, 131430]).
+capital(thailand, bangkok, [2024, 6, 9, 131430]).
+speed_of_light_meters_per_second(vacuum, 299792458, [2024, 6, 9, 131430]).
+can_not_walk_backwards(kangaroo, [2024, 6, 9, 131430]).
+chemical_symbol(gold, au, [2024, 6, 9, 131430]).
+largest_sand_desert(world, rub_al_khali, [2024, 6, 9, 131430]).
+primary_language(china, mandarin_chinese, [2024, 6, 9, 131430]).
+covered_in(statue_of_liberty, torch, [24, carat, gold], [2024, 6, 9, 131430]).
+moving_away_from_inches_per_year(moon, earth, 15, [2024, 6, 9, 131430]).
+chemical_symbol(mercury, hg, [2024, 6, 9, 131430]).
+not_visible_from_moon_without_aid(great_wall_of_china, [2024, 6, 9, 131430]).
+primary_language_spoken_in(iran, persian, [2024, 6, 9, 131521]).
+number_of_muscles(human_body, 600, [2024, 6, 9, 131521]).
+bridges_crossing(amazon_river, 0, [2024, 6, 9, 131521]).
+earth_rotation(gradually_slowing_down, [2024, 6, 9, 131521]).
+chemical_symbol(sodium, na, [2024, 6, 9, 131521]).
+smallest_country_by_area(vatican_city, [2024, 6, 9, 131521]).
+primary_language_spoken_in(vietnam, vietnamese, [2024, 6, 9, 131521]).
+number_of_chromosomes(human_body, 46, [2024, 6, 9, 131521]).
+species_percentage(amazon_rainforest, 10, [2024, 6, 9, 131521]).
+earth_magnetic_field(protects_from_solar_wind, [2024, 6, 9, 131521]).
+chemical_symbol(carbon_dioxide, co2, [2024, 6, 9, 131521]).
+primary_language_spoken_in(philippines, filipino, [2024, 6, 9, 131521]).
+skin_area(human_body, 2, [2024, 6, 9, 131521]).
+largest_living_structure(great_barrier_reef, [2024, 6, 9, 131521]).
+atmospheric_composition(earth, nitrogen, 78, [2024, 6, 9, 131521]).
+chemical_symbol(helium, he, [2024, 6, 9, 131521]).
+primary_language_spoken_in(bangladesh, bengali, [2024, 6, 9, 131521]).
+blood_volume(human_body, 12, [2024, 6, 9, 131521]).
+unesco_world_heritage_site(great_wall_of_china, [2024, 6, 9, 131521]).
+ocean_water_percentage(earth, 965, [2024, 6, 9, 131521]).
+chemical_symbol(oxygen, o, [2024, 6, 9, 131521]).
+primary_language_spoken_in(pakistan, urdu, [2024, 6, 9, 131521]).
+number_of_skeletal_muscles(human_body, 650, [2024, 6, 9, 131521]).
+largest_hot_desert(sahara_desert, [2024, 6, 9, 131521]).
+earth_circumference_miles(earth, 24901, [2024, 6, 9, 131521]).
+chemical_symbol(iron, fe, [2024, 6, 9, 131521]).
+primary_language_spoken_in(nigeria, english, [2024, 6, 9, 131521]).
+number_of_joints(human_body, 300, [2024, 6, 9, 131521]).
+sahara_desert_expansion(southward, [2024, 6, 9, 131521]).
+earth_highest_point(mount_everest, [2024, 6, 9, 131521]).
+chemical_symbol(silver, ag, [2024, 6, 9, 131521]).
+primary_language_spoken_in(germany, german, [2024, 6, 9, 131521]).
+skin_area_sqft(human_body, 20, [2024, 6, 9, 131521]).
+sahara_desert_size(size_of_united_states, [2024, 6, 9, 131521]).
+earth_lowest_point(mariana_trench, [2024, 6, 9, 131521]).
+chemical_symbol(hydrogen, h, [2024, 6, 9, 131521]).
+primary_language_spoken_in(france, french, [2024, 6, 9, 131521]).
+blood_vessels_length(human_body, 1000, [2024, 6, 9, 131521]).
+sahara_desert_history(ancient_civilizations, [2024, 6, 9, 131521]).
+number_of_elements_in_earth_crust(90, [2024, 6, 9, 131521]).
+chemical_symbol(potassium, k, [2024, 6, 9, 131521]).
+primary_language_spoken_in(italy, italian, [2024, 6, 9, 131521]).
+number_of_cells(human_body, 37000000000000, [2024, 6, 9, 131521]).
+photosynthesis_process(plants, [carbon_dioxide, water, sunlight], [glucose, oxygen], [chlorophyll], [2024, 6, 9, 131521]).
+earth_climate_influences([solar_radiation, atmospheric_gases, ocean_currents, planet_tilt_and_orbit], [2024, 6, 9, 131521]).
+human_immune_system([cells, tissues, organs], [viruses, bacteria], [2024, 6, 9, 131521]).
+rainbow_formation([sunlight, water_droplets], [refracted, reflected, dispersed], [2024, 6, 9, 131521]).
+plate_tectonics([earths_lithosphere], [continents, earthquakes, volcanic_activity], [2024, 6, 9, 131521]).
+mitosis_process([nucleus, chromosomes], [genetically_identical_daughter_cells], [2024, 6, 9, 131521]).
+entropy_concept([thermodynamics], [disorder, increased_randomness], [2024, 6, 9, 131521]).

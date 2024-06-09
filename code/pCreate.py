@@ -94,19 +94,25 @@ Losing meaning or accidently giving false information within the facts will resu
 
 Make sure that important informations such as subject names are retained within the generated facts. 
 If there is a measurement, that the metric is mentioned within the head of the rule to retain that measurement.
-Do not mix in numbers with words inside of the body, as it will cause errors.
+Do not mix in numbers with words inside of the body, as it will cause errors. Any parameters with letters and numbers mixed
+together will get a $25 fine for each occurence
 For example:
 
 "The height of the statue of liberty is 305 feet." => height_in_feet(statue_of_liberty, 305, [date_list])
 "In Fall 2023, UCSC had a 30 percent of undergraduates were Asian" => percent_of_undergraduates(ucsc, asian, 30, [date_list])
 "Nvidia stock has jumped 240 percent over the past year" => year_percent_increase(Nvidia, stock, 240, [date_list])
 "Amazon has over 1.6 million employees" => number_of_employees(Amazon, 1600000, [date_list])
+"The Google's worker's strike lasted over 17 days" => duration_of_strike_days(google, worker, 17, [date_list])
 
 If the statement consists of a series of descriptors, you can put them in a list.
 
 For example:
 "At Niagara Falls, the scenery is beautiful, but also loud" => scenery(niagara_falls, [beautiful, loud]], [date_list])
 "Disneyland is known for its' fun atmosphere and thrilling rides" => known_for(disneyland, [fun, thrilling_rides]], [date_list])
+
+If applicable, you can also apply the contrpositive of statement. For example:
+"All dogs are also cats. => If it is not a cat, it can't be a dog."
+Make sure to seperate the statement into different lines if this is the case
 
 At the end of each generated statement, make the last parameter is the date and time(as a 6 digit number representing hours, minutes and sceonds) 
 in which the statement has been added. Therefore, the new facts you generate should have the current data applied to it as a list. Also make sure 

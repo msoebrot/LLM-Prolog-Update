@@ -68,6 +68,8 @@ for fact in prolog_list:
     userfile.write(fact + ".\n")
 userfile.close()
 
+prolog = Prolog()
+
 #print("----------------------------------------------------")
 
 #print("Generated Prolog Facts: \n")
@@ -76,7 +78,6 @@ for fact in prolog_list:
     #print(fact, "\n")
 
     try:
-        prolog = Prolog()
         prolog.assertz(fact)
     except:
         failed += 1

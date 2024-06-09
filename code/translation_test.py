@@ -57,12 +57,12 @@ count = 0
 
 #print(facts)
 numbers = random.sample(range(1, len(facts)), 50)
-#print(numbers)
+print(numbers)
 sample_list = []
 for num in numbers:
     sample_list += [facts[num]]
 
-#print(sample_list)
+print(sample_list)
 
 print("----------------------------------------------------")
 print("Generating Prolog... \n")
@@ -110,14 +110,14 @@ for statement in sample_list:
     print(final_str)
     print("Time elapsed:", length, "seconds", "\n")
     start = time.time()
-    time.sleep(20) #Delay to avoid going over request limit for Google Gemini API
+    #time.sleep(20) #Delay to avoid going over request limit for Google Gemini API
 
 
 
 output_file = "test_files/translation_test_output.txt"
 userfile = open(output_file, "w") 
 for fact in translation_list:
-    userfile.write(fact + "\n")
+    userfile.write(fact + ".\n")
 userfile.close()
 
 prolog = Prolog()
