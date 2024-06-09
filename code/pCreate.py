@@ -90,10 +90,11 @@ to use theses facts. If other parts of the fact are not mentioned, do not change
 not mentioned in the input is bad and should also incur a $50 fine.
 
 After you have generated some rules, look over them again and make sure that the information matches what is intended from the input string.
-Make sure that important informations such as subject names are retained within the generated facts and if there is a measurement, that 
-the metric is mentioned within the head of the rule to retain that measurement. Losing meaning or accidently giving false information 
-within the facts will result in a $50 fine.
+Losing meaning or accidently giving false information within the facts will result in a $50 fine.
 
+Make sure that important informations such as subject names are retained within the generated facts. 
+If there is a measurement, that the metric is mentioned within the head of the rule to retain that measurement.
+Do not mix in numbers with words inside of the body, as it will cause errors.
 For example:
 
 "The height of the statue of liberty is 305 feet." => height_in_feet(statue_of_liberty, 305, [date_list])
@@ -111,7 +112,7 @@ At the end of each generated statement, make the last parameter is the date and 
 in which the statement has been added. Therefore, the new facts you generate should have the current data applied to it as a list. Also make sure 
 to not add any quotation marks in any parameter.
 
-In rules in which a comparison is being made, make sure the comparison is stated within the rule head or within the body.
+In rules in which a comparison is being made, make sure the comparison is stated within the rule head.
 This goes for adverbs as well, as losing this could change the sentence.
 Ex. Michael is as rich as Joe => as_rich_as(michael, joe, [date_list])
 Ex. John's hand were about the size of textbooks => about_the_size(john, hand, textbook, [date_list])
